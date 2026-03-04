@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "scraped_at": "2026-03-03T06:17:10.281Z",
+    "scraped_at": "2026-03-04T06:15:19.111Z",
     "version": "1.0",
     "scraper_version": "0.1.0",
-    "total_models": 342,
-    "filtered_count": 83,
+    "total_models": 343,
+    "filtered_count": 81,
     "max_params_filter": 15
   },
   "models": [
@@ -402,8 +402,8 @@
       "multimodal": true,
       "license": "",
       "pricing": {
-        "prompt": 4e-7,
-        "completion": 0.0000032
+        "prompt": 2.6e-7,
+        "completion": 0.00000208
       },
       "office_grade": false
     },
@@ -975,27 +975,6 @@
       "office_grade": false
     },
     {
-      "id": "mistralai/mistral-7b-instruct",
-      "name": "Mistral: Mistral 7B Instruct",
-      "provider": "mistralai",
-      "active_params_b": 7,
-      "total_params_b": 7,
-      "tier": "capable",
-      "tool_calling": false,
-      "tool_score": null,
-      "ifeval_score": null,
-      "context_length": 32768,
-      "quantized_ram_gb": 4.7,
-      "reasoning": false,
-      "multimodal": false,
-      "license": "",
-      "pricing": {
-        "prompt": 2e-7,
-        "completion": 2e-7
-      },
-      "office_grade": false
-    },
-    {
       "id": "mistralai/mistral-7b-instruct-v0.1",
       "name": "Mistral: Mistral 7B Instruct v0.1",
       "provider": "mistralai",
@@ -1013,27 +992,6 @@
       "pricing": {
         "prompt": 1.1e-7,
         "completion": 1.9e-7
-      },
-      "office_grade": false
-    },
-    {
-      "id": "mistralai/mistral-7b-instruct-v0.3",
-      "name": "Mistral: Mistral 7B Instruct v0.3",
-      "provider": "mistralai",
-      "active_params_b": 7,
-      "total_params_b": 7,
-      "tier": "capable",
-      "tool_calling": false,
-      "tool_score": null,
-      "ifeval_score": null,
-      "context_length": 32768,
-      "quantized_ram_gb": 4.7,
-      "reasoning": false,
-      "multimodal": false,
-      "license": "",
-      "pricing": {
-        "prompt": 2e-7,
-        "completion": 2e-7
       },
       "office_grade": false
     },
@@ -1599,8 +1557,8 @@
       "multimodal": true,
       "license": "",
       "pricing": {
-        "prompt": 2.5e-7,
-        "completion": 0.000001
+        "prompt": 1.625e-7,
+        "completion": 0.0000013
       },
       "office_grade": false
     },
