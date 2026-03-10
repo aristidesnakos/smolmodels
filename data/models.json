@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "scraped_at": "2026-03-09T06:22:31.206Z",
+    "scraped_at": "2026-03-10T06:15:27.716Z",
     "version": "1.0",
     "scraper_version": "0.1.0",
     "total_models": 346,
@@ -1446,7 +1446,7 @@
       "tool_calling": true,
       "tool_score": null,
       "ifeval_score": null,
-      "context_length": 262144,
+      "context_length": 131072,
       "quantized_ram_gb": 2.3,
       "reasoning": false,
       "multimodal": false,
