@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "scraped_at": "2026-03-10T06:15:27.716Z",
+    "scraped_at": "2026-03-11T06:17:12.202Z",
     "version": "1.0",
     "scraper_version": "0.1.0",
-    "total_models": 346,
-    "filtered_count": 81,
+    "total_models": 339,
+    "filtered_count": 80,
     "max_params_filter": 15
   },
   "models": [
@@ -471,6 +471,27 @@
       "office_grade": false
     },
     {
+      "id": "qwen/qwen3.5-9b",
+      "name": "Qwen: Qwen3.5-9B",
+      "provider": "qwen",
+      "active_params_b": 9,
+      "total_params_b": 9,
+      "tier": "strong",
+      "tool_calling": true,
+      "tool_score": null,
+      "ifeval_score": null,
+      "context_length": 262144,
+      "quantized_ram_gb": 5.9,
+      "reasoning": false,
+      "multimodal": true,
+      "license": "",
+      "pricing": {
+        "prompt": 1e-7,
+        "completion": 1.5e-7
+      },
+      "office_grade": false
+    },
+    {
       "id": "aion-labs/aion-rp-llama-3.1-8b",
       "name": "AionLabs: Aion-RP 1.0 (8B)",
       "provider": "aion-labs",
@@ -572,27 +593,6 @@
       "pricing": {
         "prompt": 2e-8,
         "completion": 5e-8
-      },
-      "office_grade": false
-    },
-    {
-      "id": "meta-llama/llama-guard-2-8b",
-      "name": "Meta: LlamaGuard 2 8B",
-      "provider": "meta-llama",
-      "active_params_b": 8,
-      "total_params_b": 8,
-      "tier": "strong",
-      "tool_calling": false,
-      "tool_score": null,
-      "ifeval_score": null,
-      "context_length": 8192,
-      "quantized_ram_gb": 5.3,
-      "reasoning": false,
-      "multimodal": false,
-      "license": "",
-      "pricing": {
-        "prompt": 2e-7,
-        "completion": 2e-7
       },
       "office_grade": false
     },
@@ -719,27 +719,6 @@
       "pricing": {
         "prompt": 1e-7,
         "completion": 3e-7
-      },
-      "office_grade": false
-    },
-    {
-      "id": "neversleep/llama-3.1-lumimaid-8b",
-      "name": "NeverSleep: Lumimaid v0.2 8B",
-      "provider": "neversleep",
-      "active_params_b": 8,
-      "total_params_b": 8,
-      "tier": "strong",
-      "tool_calling": false,
-      "tool_score": null,
-      "ifeval_score": null,
-      "context_length": 32768,
-      "quantized_ram_gb": 5.3,
-      "reasoning": false,
-      "multimodal": false,
-      "license": "",
-      "pricing": {
-        "prompt": 9e-8,
-        "completion": 6e-7
       },
       "office_grade": false
     },
