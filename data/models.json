@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "scraped_at": "2026-03-11T06:17:12.202Z",
+    "scraped_at": "2026-03-12T06:18:35.012Z",
     "version": "1.0",
     "scraper_version": "0.1.0",
-    "total_models": 339,
-    "filtered_count": 80,
+    "total_models": 342,
+    "filtered_count": 81,
     "max_params_filter": 15
   },
   "models": [
@@ -236,6 +236,27 @@
       "pricing": {
         "prompt": 4e-7,
         "completion": 0.000002
+      },
+      "office_grade": false
+    },
+    {
+      "id": "nvidia/nemotron-3-super-120b-a12b:free",
+      "name": "NVIDIA: Nemotron 3 Super (free)",
+      "provider": "nvidia",
+      "active_params_b": 12,
+      "total_params_b": 12,
+      "tier": "strong",
+      "tool_calling": true,
+      "tool_score": null,
+      "ifeval_score": null,
+      "context_length": 262144,
+      "quantized_ram_gb": 7.7,
+      "reasoning": false,
+      "multimodal": false,
+      "license": "",
+      "pricing": {
+        "prompt": 0,
+        "completion": 0
       },
       "office_grade": false
     },
@@ -1467,14 +1488,14 @@
       "tool_calling": true,
       "tool_score": null,
       "ifeval_score": null,
-      "context_length": 128000,
+      "context_length": 131072,
       "quantized_ram_gb": 2.3,
       "reasoning": true,
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 1.5e-7,
-        "completion": 0.0000012
+        "prompt": 9.75e-8,
+        "completion": 7.8e-7
       },
       "office_grade": false
     },
@@ -1515,8 +1536,8 @@
       "multimodal": true,
       "license": "",
       "pricing": {
-        "prompt": 0,
-        "completion": 0
+        "prompt": 1.3e-7,
+        "completion": 0.00000156
       },
       "office_grade": false
     },
