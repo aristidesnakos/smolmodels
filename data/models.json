@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "scraped_at": "2026-03-22T06:17:58.300Z",
+    "scraped_at": "2026-03-23T06:26:47.779Z",
     "version": "1.0",
     "scraper_version": "0.1.0",
-    "total_models": 352,
-    "filtered_count": 84,
+    "total_models": 349,
+    "filtered_count": 81,
     "max_params_filter": 15
   },
   "models": [
@@ -576,27 +576,6 @@
       "office_grade": false
     },
     {
-      "id": "allenai/molmo-2-8b",
-      "name": "AllenAI: Molmo2 8B",
-      "provider": "allenai",
-      "active_params_b": 8,
-      "total_params_b": 8,
-      "tier": "strong",
-      "tool_calling": false,
-      "tool_score": null,
-      "ifeval_score": null,
-      "context_length": 36864,
-      "quantized_ram_gb": 5.3,
-      "reasoning": false,
-      "multimodal": true,
-      "license": "",
-      "pricing": {
-        "prompt": 2e-7,
-        "completion": 2e-7
-      },
-      "office_grade": false
-    },
-    {
       "id": "meta-llama/llama-guard-3-8b",
       "name": "Llama Guard 3 8B",
       "provider": "meta-llama",
@@ -929,48 +908,6 @@
       "pricing": {
         "prompt": 8e-7,
         "completion": 0.0000012
-      },
-      "office_grade": false
-    },
-    {
-      "id": "allenai/olmo-3-7b-instruct",
-      "name": "AllenAI: Olmo 3 7B Instruct",
-      "provider": "allenai",
-      "active_params_b": 7,
-      "total_params_b": 7,
-      "tier": "capable",
-      "tool_calling": false,
-      "tool_score": null,
-      "ifeval_score": null,
-      "context_length": 65536,
-      "quantized_ram_gb": 4.7,
-      "reasoning": false,
-      "multimodal": false,
-      "license": "",
-      "pricing": {
-        "prompt": 1e-7,
-        "completion": 2e-7
-      },
-      "office_grade": false
-    },
-    {
-      "id": "allenai/olmo-3-7b-think",
-      "name": "AllenAI: Olmo 3 7B Think",
-      "provider": "allenai",
-      "active_params_b": 7,
-      "total_params_b": 7,
-      "tier": "capable",
-      "tool_calling": false,
-      "tool_score": null,
-      "ifeval_score": null,
-      "context_length": 65536,
-      "quantized_ram_gb": 4.7,
-      "reasoning": true,
-      "multimodal": false,
-      "license": "",
-      "pricing": {
-        "prompt": 1.2e-7,
-        "completion": 2e-7
       },
       "office_grade": false
     },
