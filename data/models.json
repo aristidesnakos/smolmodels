@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "scraped_at": "2026-03-28T06:21:20.832Z",
+    "scraped_at": "2026-03-29T06:25:35.011Z",
     "version": "1.0",
     "scraper_version": "0.1.0",
-    "total_models": 347,
-    "filtered_count": 79,
+    "total_models": 345,
+    "filtered_count": 77,
     "max_params_filter": 15
   },
   "models": [
@@ -681,27 +681,6 @@
       "office_grade": false
     },
     {
-      "id": "mistralai/mistral-small-3.1-24b-instruct:free",
-      "name": "Mistral: Mistral Small 3.1 24B (free)",
-      "provider": "mistralai",
-      "active_params_b": 8,
-      "total_params_b": 22,
-      "tier": "strong",
-      "tool_calling": true,
-      "tool_score": null,
-      "ifeval_score": null,
-      "context_length": 128000,
-      "quantized_ram_gb": 5.3,
-      "reasoning": false,
-      "multimodal": true,
-      "license": "",
-      "pricing": {
-        "prompt": 0,
-        "completion": 0
-      },
-      "office_grade": false
-    },
-    {
       "id": "mistralai/mistral-small-3.2-24b-instruct",
       "name": "Mistral: Mistral Small 3.2 24B",
       "provider": "mistralai",
@@ -1111,27 +1090,6 @@
       "tool_score": null,
       "ifeval_score": null,
       "context_length": 8192,
-      "quantized_ram_gb": 2.9,
-      "reasoning": false,
-      "multimodal": false,
-      "license": "",
-      "pricing": {
-        "prompt": 0,
-        "completion": 0
-      },
-      "office_grade": false
-    },
-    {
-      "id": "qwen/qwen3-4b:free",
-      "name": "Qwen: Qwen3 4B (free)",
-      "provider": "qwen",
-      "active_params_b": 4,
-      "total_params_b": 4,
-      "tier": "capable",
-      "tool_calling": true,
-      "tool_score": null,
-      "ifeval_score": null,
-      "context_length": 40960,
       "quantized_ram_gb": 2.9,
       "reasoning": false,
       "multimodal": false,
