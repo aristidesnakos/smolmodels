@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "scraped_at": "2026-04-03T06:26:44.222Z",
+    "scraped_at": "2026-04-04T06:22:32.615Z",
     "version": "1.0",
     "scraper_version": "0.1.0",
-    "total_models": 349,
-    "filtered_count": 75,
+    "total_models": 350,
+    "filtered_count": 76,
     "max_params_filter": 15
   },
   "models": [
@@ -1076,6 +1076,27 @@
       "pricing": {
         "prompt": 0,
         "completion": 0
+      },
+      "office_grade": false
+    },
+    {
+      "id": "google/gemma-4-26b-a4b-it",
+      "name": "Google: Gemma 4 26B A4B ",
+      "provider": "google",
+      "active_params_b": 4,
+      "total_params_b": 4,
+      "tier": "capable",
+      "tool_calling": true,
+      "tool_score": null,
+      "ifeval_score": null,
+      "context_length": 262144,
+      "quantized_ram_gb": 2.9,
+      "reasoning": false,
+      "multimodal": true,
+      "license": "",
+      "pricing": {
+        "prompt": 1.3e-7,
+        "completion": 4e-7
       },
       "office_grade": false
     },
