@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "scraped_at": "2026-04-12T06:32:54.858Z",
+    "scraped_at": "2026-04-13T06:44:48.903Z",
     "version": "1.0",
     "scraper_version": "0.1.0",
-    "total_models": 350,
-    "filtered_count": 76,
+    "total_models": 349,
+    "filtered_count": 75,
     "max_params_filter": 15
   },
   "models": [
@@ -887,27 +887,6 @@
       "pricing": {
         "prompt": 3.75e-8,
         "completion": 1.5e-7
-      },
-      "office_grade": false
-    },
-    {
-      "id": "eleutherai/llemma_7b",
-      "name": "EleutherAI: Llemma 7b",
-      "provider": "eleutherai",
-      "active_params_b": 7,
-      "total_params_b": 7,
-      "tier": "capable",
-      "tool_calling": false,
-      "tool_score": null,
-      "ifeval_score": null,
-      "context_length": 4096,
-      "quantized_ram_gb": 4.7,
-      "reasoning": false,
-      "multimodal": false,
-      "license": "",
-      "pricing": {
-        "prompt": 8e-7,
-        "completion": 0.0000012
       },
       "office_grade": false
     },
