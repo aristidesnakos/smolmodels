@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "scraped_at": "2026-04-17T06:38:39.989Z",
+    "scraped_at": "2026-04-18T06:27:04.174Z",
     "version": "1.0",
     "scraper_version": "0.1.0",
-    "total_models": 345,
-    "filtered_count": 74,
+    "total_models": 343,
+    "filtered_count": 73,
     "max_params_filter": 15
   },
   "models": [
@@ -198,27 +198,6 @@
       "office_grade": false
     },
     {
-      "id": "meta-llama/llama-guard-4-12b:free",
-      "name": "Meta: Llama Guard 4 12B (free)",
-      "provider": "meta-llama",
-      "active_params_b": 12,
-      "total_params_b": 12,
-      "tier": "strong",
-      "tool_calling": false,
-      "tool_score": null,
-      "ifeval_score": null,
-      "context_length": 163840,
-      "quantized_ram_gb": 7.7,
-      "reasoning": false,
-      "multimodal": true,
-      "license": "",
-      "pricing": {
-        "prompt": 0,
-        "completion": 0
-      },
-      "office_grade": false
-    },
-    {
       "id": "mistralai/mistral-medium-3",
       "name": "Mistral: Mistral Medium 3",
       "provider": "mistralai",
@@ -276,8 +255,8 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 1e-7,
-        "completion": 5e-7
+        "prompt": 9e-8,
+        "completion": 4.5e-7
       },
       "office_grade": false
     },
@@ -501,13 +480,13 @@
       "tool_calling": true,
       "tool_score": null,
       "ifeval_score": null,
-      "context_length": 256000,
+      "context_length": 262144,
       "quantized_ram_gb": 5.9,
       "reasoning": false,
       "multimodal": true,
       "license": "",
       "pricing": {
-        "prompt": 5e-8,
+        "prompt": 1e-7,
         "completion": 1.5e-7
       },
       "office_grade": false
@@ -1032,8 +1011,8 @@
       "multimodal": true,
       "license": "",
       "pricing": {
-        "prompt": 7e-8,
-        "completion": 4e-7
+        "prompt": 8e-8,
+        "completion": 3.5e-7
       },
       "office_grade": false
     },
