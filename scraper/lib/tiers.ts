@@ -120,6 +120,8 @@ export function processModel(
     license: "", // Will be enriched from HuggingFace if available
     pricing: parsePricing(raw),
     office_grade: false, // Computed below
+    hugging_face_id: raw.hugging_face_id ?? null,
+    description: raw.description ?? null,
   };
 
   entry.office_grade = computeOfficeGrade(entry);

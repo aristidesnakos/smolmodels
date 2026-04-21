@@ -1,9 +1,8 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import React, { useState, useMemo } from "react";
 import type { ModelEntry, Tier } from "@/lib/types";
 import { TierBadge } from "./TierBadge";
-import { OfficeBadge } from "./OfficeBadge";
 import { FilterBar, type Filters } from "./FilterBar";
 
 type SortKey =
@@ -13,8 +12,7 @@ type SortKey =
   | "tier"
   | "context_length"
   | "quantized_ram_gb"
-  | "tool_calling"
-  | "office_grade";
+  | "tool_calling";
 
 type SortDir = "asc" | "desc";
 
@@ -48,7 +46,6 @@ export function ModelTable({ models }: { models: ModelEntry[] }) {
     search: "",
     tiers: new Set<Tier>(["edge", "basic", "capable", "strong"]),
     toolCallingOnly: false,
-    officeGradeOnly: false,
   });
 
   const handleSort = (key: SortKey) => {
@@ -64,7 +61,6 @@ export function ModelTable({ models }: { models: ModelEntry[] }) {
     return models.filter((m) => {
       if (!filters.tiers.has(m.tier)) return false;
       if (filters.toolCallingOnly && !m.tool_calling) return false;
-      if (filters.officeGradeOnly && !m.office_grade) return false;
       if (filters.search) {
         const q = filters.search.toLowerCase();
         if (
@@ -102,9 +98,6 @@ export function ModelTable({ models }: { models: ModelEntry[] }) {
           break;
         case "tool_calling":
           cmp = (a.tool_calling ? 1 : 0) - (b.tool_calling ? 1 : 0);
-          break;
-        case "office_grade":
-          cmp = (a.office_grade ? 1 : 0) - (b.office_grade ? 1 : 0);
           break;
       }
       return sortDir === "asc" ? cmp : -cmp;
@@ -153,14 +146,12 @@ export function ModelTable({ models }: { models: ModelEntry[] }) {
               <SortHeader label="Context" sortKeyName="context_length" />
               <SortHeader label="RAM (Q4)" sortKeyName="quantized_ram_gb" />
               <SortHeader label="Tools" sortKeyName="tool_calling" />
-              <SortHeader label="Office" sortKeyName="office_grade" />
             </tr>
           </thead>
           <tbody>
             {sorted.map((model) => (
-              <>
+              <React.Fragment key={model.id}>
                 <tr
-                  key={model.id}
                   className="border-b border-[var(--color-border)] hover:bg-[var(--color-surface-hover)] cursor-pointer"
                   onClick={() =>
                     setExpandedId(
@@ -197,21 +188,17 @@ export function ModelTable({ models }: { models: ModelEntry[] }) {
                       <span className="text-[var(--color-text-muted)]">—</span>
                     )}
                   </td>
-                  <td className="px-3 py-2">
-                    <OfficeBadge officeGrade={model.office_grade} />
-                  </td>
                 </tr>
                 {expandedId === model.id && (
                   <tr
-                    key={`${model.id}-detail`}
                     className="border-b border-[var(--color-border)] bg-[var(--color-surface)]"
                   >
-                    <td colSpan={8} className="px-4 py-3">
+                    <td colSpan={7} className="px-4 py-3">
                       <ModelDetail model={model} />
                     </td>
                   </tr>
                 )}
-              </>
+              </React.Fragment>
             ))}
           </tbody>
         </table>
@@ -224,14 +211,24 @@ export function ModelTable({ models }: { models: ModelEntry[] }) {
             key={model.id}
             className="rounded-lg border border-[var(--color-border)] bg-[var(--color-surface)] p-4"
           >
-            <div className="flex items-start justify-between gap-2">
+            <div
+              className="flex items-start justify-between gap-2 cursor-pointer"
+              onClick={() =>
+                setExpandedId(expandedId === model.id ? null : model.id)
+              }
+            >
               <div>
                 <div className="font-medium">{model.name}</div>
                 <div className="text-xs text-[var(--color-text-muted)]">
                   {model.provider}
                 </div>
               </div>
-              <TierBadge tier={model.tier} />
+              <div className="flex items-center gap-2">
+                <TierBadge tier={model.tier} />
+                <span className="text-[var(--color-text-muted)] text-xs">
+                  {expandedId === model.id ? "▲" : "▼"}
+                </span>
+              </div>
             </div>
             <div className="mt-3 grid grid-cols-2 gap-2 text-xs">
               <div>
@@ -251,6 +248,11 @@ export function ModelTable({ models }: { models: ModelEntry[] }) {
                 {model.tool_calling ? "Yes" : "No"}
               </div>
             </div>
+            {expandedId === model.id && (
+              <div className="mt-3 pt-3 border-t border-[var(--color-border)]">
+                <ModelDetail model={model} />
+              </div>
+            )}
           </div>
         ))}
       </div>
@@ -259,47 +261,117 @@ export function ModelTable({ models }: { models: ModelEntry[] }) {
 }
 
 function ModelDetail({ model }: { model: ModelEntry }) {
+  const hfUrl = model.hugging_face_id
+    ? `https://huggingface.co/${model.hugging_face_id}`
+    : `https://huggingface.co/models?search=${encodeURIComponent(model.name)}`;
+
+  const openRouterUrl = `https://openrouter.ai/${model.id}`;
+  const ollamaUrl = `https://ollama.com/search?q=${encodeURIComponent(model.name)}`;
+
   return (
-    <div className="grid grid-cols-2 gap-x-8 gap-y-2 text-xs sm:grid-cols-4">
-      <div>
-        <span className="text-[var(--color-text-muted)]">Model ID</span>
-        <div className="font-mono">{model.id}</div>
-      </div>
-      <div>
-        <span className="text-[var(--color-text-muted)]">Active / Total Params</span>
-        <div>
-          {model.active_params_b}B / {model.total_params_b}B
-        </div>
-      </div>
-      <div>
-        <span className="text-[var(--color-text-muted)]">Context Length</span>
-        <div>{model.context_length.toLocaleString()} tokens</div>
-      </div>
-      <div>
-        <span className="text-[var(--color-text-muted)]">RAM (Q4_K_M)</span>
-        <div>{model.quantized_ram_gb} GB</div>
-      </div>
-      <div>
-        <span className="text-[var(--color-text-muted)]">Pricing (per 1M tokens)</span>
-        <div>
-          In: {formatPricing(model.pricing.prompt)} / Out:{" "}
-          {formatPricing(model.pricing.completion)}
-        </div>
-      </div>
-      <div>
-        <span className="text-[var(--color-text-muted)]">Reasoning</span>
-        <div>{model.reasoning ? "Yes" : "No"}</div>
-      </div>
-      <div>
-        <span className="text-[var(--color-text-muted)]">Multimodal</span>
-        <div>{model.multimodal ? "Yes" : "No"}</div>
-      </div>
-      {model.license && (
-        <div>
-          <span className="text-[var(--color-text-muted)]">License</span>
-          <div>{model.license}</div>
-        </div>
+    <div className="space-y-4">
+      {/* Description */}
+      {model.description && (
+        <p className="text-xs text-[var(--color-text-muted)] leading-relaxed max-w-2xl">
+          {model.description}
+        </p>
       )}
+
+      {/* Where to run */}
+      <div>
+        <div className="text-xs font-medium text-[var(--color-text-muted)] mb-2 uppercase tracking-wide">
+          Where to run
+        </div>
+        <div className="flex flex-wrap gap-2">
+          <a
+            href={openRouterUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1 rounded-md border border-[var(--color-border)] bg-[var(--color-surface-hover)] px-2.5 py-1 text-xs hover:border-[var(--color-accent)] hover:text-[var(--color-accent)] transition-colors"
+          >
+            ☁ Try on OpenRouter
+          </a>
+          <a
+            href={hfUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1 rounded-md border border-[var(--color-border)] bg-[var(--color-surface-hover)] px-2.5 py-1 text-xs hover:border-[var(--color-accent)] hover:text-[var(--color-accent)] transition-colors"
+          >
+            🤗 {model.hugging_face_id ? "Hugging Face" : "Search Hugging Face"}
+          </a>
+          <a
+            href={ollamaUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1 rounded-md border border-[var(--color-border)] bg-[var(--color-surface-hover)] px-2.5 py-1 text-xs hover:border-[var(--color-accent)] hover:text-[var(--color-accent)] transition-colors"
+          >
+            🦙 Search Ollama
+          </a>
+        </div>
+      </div>
+
+      {/* Technical specs */}
+      <div className="grid grid-cols-2 gap-x-8 gap-y-2 text-xs sm:grid-cols-4">
+        <div>
+          <span className="text-[var(--color-text-muted)]">Model ID</span>
+          <div className="font-mono">{model.id}</div>
+        </div>
+        <div>
+          <span className="text-[var(--color-text-muted)]">Active / Total Params</span>
+          <div>
+            {model.active_params_b}B / {model.total_params_b}B
+          </div>
+        </div>
+        <div>
+          <span className="text-[var(--color-text-muted)]">Context Length</span>
+          <div>{model.context_length.toLocaleString()} tokens</div>
+        </div>
+        <div>
+          <span className="text-[var(--color-text-muted)]">RAM (Q4_K_M)</span>
+          <div>{model.quantized_ram_gb} GB</div>
+        </div>
+        <div>
+          <span className="text-[var(--color-text-muted)]">Pricing (per 1M tokens)</span>
+          <div>
+            In: {formatPricing(model.pricing.prompt)} / Out:{" "}
+            {formatPricing(model.pricing.completion)}
+          </div>
+        </div>
+        <div>
+          <span className="text-[var(--color-text-muted)]">IFEval Score</span>
+          <div>
+            {model.ifeval_score !== null ? (
+              <span>{model.ifeval_score}</span>
+            ) : (
+              <span className="text-[var(--color-text-muted)]">—</span>
+            )}
+          </div>
+        </div>
+        <div>
+          <span className="text-[var(--color-text-muted)]">Tool Score</span>
+          <div>
+            {model.tool_score !== null ? (
+              <span>{model.tool_score}</span>
+            ) : (
+              <span className="text-[var(--color-text-muted)]">—</span>
+            )}
+          </div>
+        </div>
+        <div>
+          <span className="text-[var(--color-text-muted)]">Reasoning</span>
+          <div>{model.reasoning ? "Yes" : "No"}</div>
+        </div>
+        <div>
+          <span className="text-[var(--color-text-muted)]">Multimodal</span>
+          <div>{model.multimodal ? "Yes" : "No"}</div>
+        </div>
+        {model.license && (
+          <div>
+            <span className="text-[var(--color-text-muted)]">License</span>
+            <div>{model.license}</div>
+          </div>
+        )}
+      </div>
     </div>
   );
 }

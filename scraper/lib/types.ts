@@ -25,6 +25,10 @@ export interface ModelEntry {
   license: string;
   pricing: Pricing;
   office_grade: boolean;
+  /** HuggingFace repo ID (e.g. "meta-llama/Llama-3.2-3B-Instruct"), if provided by OpenRouter */
+  hugging_face_id: string | null;
+  /** Short description of the model from OpenRouter */
+  description: string | null;
 }
 
 /** Top-level output schema for data/models.json */
