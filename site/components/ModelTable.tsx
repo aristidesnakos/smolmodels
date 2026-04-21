@@ -48,7 +48,6 @@ export function ModelTable({ models }: { models: ModelEntry[] }) {
     search: "",
     tiers: new Set<Tier>(["edge", "basic", "capable", "strong"]),
     toolCallingOnly: false,
-    officeGradeOnly: false,
   });
 
   const handleSort = (key: SortKey) => {
@@ -64,7 +63,6 @@ export function ModelTable({ models }: { models: ModelEntry[] }) {
     return models.filter((m) => {
       if (!filters.tiers.has(m.tier)) return false;
       if (filters.toolCallingOnly && !m.tool_calling) return false;
-      if (filters.officeGradeOnly && !m.office_grade) return false;
       if (filters.search) {
         const q = filters.search.toLowerCase();
         if (

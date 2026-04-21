@@ -6,7 +6,6 @@ export interface Filters {
   search: string;
   tiers: Set<Tier>;
   toolCallingOnly: boolean;
-  officeGradeOnly: boolean;
 }
 
 const ALL_TIERS: Tier[] = ["edge", "basic", "capable", "strong"];
@@ -76,21 +75,6 @@ export function FilterBar({
           className="rounded accent-[var(--color-accent)]"
         />
         <span className="text-[var(--color-text-muted)]">Tool Calling</span>
-      </label>
-
-      <label className="flex cursor-pointer items-center gap-1 text-xs">
-        <input
-          type="checkbox"
-          checked={filters.officeGradeOnly}
-          onChange={() =>
-            onChange({
-              ...filters,
-              officeGradeOnly: !filters.officeGradeOnly,
-            })
-          }
-          className="rounded accent-[var(--color-accent)]"
-        />
-        <span className="text-[var(--color-text-muted)]">Office Grade</span>
       </label>
     </div>
   );
