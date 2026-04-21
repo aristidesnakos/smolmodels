@@ -3,7 +3,6 @@
 import React, { useState, useMemo } from "react";
 import type { ModelEntry, Tier } from "@/lib/types";
 import { TierBadge } from "./TierBadge";
-import { OfficeBadge } from "./OfficeBadge";
 import { FilterBar, type Filters } from "./FilterBar";
 
 type SortKey =
@@ -13,8 +12,7 @@ type SortKey =
   | "tier"
   | "context_length"
   | "quantized_ram_gb"
-  | "tool_calling"
-  | "office_grade";
+  | "tool_calling";
 
 type SortDir = "asc" | "desc";
 
@@ -101,9 +99,6 @@ export function ModelTable({ models }: { models: ModelEntry[] }) {
         case "tool_calling":
           cmp = (a.tool_calling ? 1 : 0) - (b.tool_calling ? 1 : 0);
           break;
-        case "office_grade":
-          cmp = (a.office_grade ? 1 : 0) - (b.office_grade ? 1 : 0);
-          break;
       }
       return sortDir === "asc" ? cmp : -cmp;
     });
@@ -151,7 +146,6 @@ export function ModelTable({ models }: { models: ModelEntry[] }) {
               <SortHeader label="Context" sortKeyName="context_length" />
               <SortHeader label="RAM (Q4)" sortKeyName="quantized_ram_gb" />
               <SortHeader label="Tools" sortKeyName="tool_calling" />
-              <SortHeader label="Office" sortKeyName="office_grade" />
             </tr>
           </thead>
           <tbody>
@@ -194,15 +188,12 @@ export function ModelTable({ models }: { models: ModelEntry[] }) {
                       <span className="text-[var(--color-text-muted)]">—</span>
                     )}
                   </td>
-                  <td className="px-3 py-2">
-                    <OfficeBadge officeGrade={model.office_grade} />
-                  </td>
                 </tr>
                 {expandedId === model.id && (
                   <tr
                     className="border-b border-[var(--color-border)] bg-[var(--color-surface)]"
                   >
-                    <td colSpan={8} className="px-4 py-3">
+                    <td colSpan={7} className="px-4 py-3">
                       <ModelDetail model={model} />
                     </td>
                   </tr>
