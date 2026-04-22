@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-04-21T06:38:52.971Z",
+    "scraped_at": "2026-04-22T06:39:00.691Z",
     "version": "1.0",
     "scraper_version": "0.1.0",
-    "total_models": 343,
+    "total_models": 346,
     "filtered_count": 73,
     "max_params_filter": 15
   },
@@ -27,7 +27,9 @@
         "prompt": 2e-7,
         "completion": 2e-7
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "mistralai/Ministral-3-14B-Instruct-2512",
+      "description": "The largest model in the Ministral 3 family, Ministral 3 14B offers frontier capabilities and performance comparable to its larger Mistral Small 3.2 24B counterpart. A powerful and efficient language..."
     },
     {
       "id": "mistralai/mixtral-8x7b-instruct",
@@ -48,7 +50,9 @@
         "prompt": 5.4e-7,
         "completion": 5.4e-7
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "mistralai/Mixtral-8x7B-Instruct-v0.1",
+      "description": "Mixtral 8x7B Instruct is a pretrained generative Sparse Mixture of Experts, by Mistral AI, for chat and instruction use. Incorporates 8 experts (feed-forward networks) for a total of 47 billion..."
     },
     {
       "id": "qwen/qwen3-14b",
@@ -69,7 +73,9 @@
         "prompt": 6e-8,
         "completion": 2.4e-7
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "Qwen/Qwen3-14B",
+      "description": "Qwen3-14B is a dense 14.8B parameter causal language model from the Qwen3 series, designed for both complex reasoning and efficient dialogue. It supports seamless switching between a \"thinking\" mode for..."
     },
     {
       "id": "gryphe/mythomax-l2-13b",
@@ -90,7 +96,9 @@
         "prompt": 6e-8,
         "completion": 6e-8
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "Gryphe/MythoMax-L2-13b",
+      "description": "One of the highest performing and most popular fine-tunes of Llama 2 13B, with rich descriptions and roleplay. #merge"
     },
     {
       "id": "undi95/remm-slerp-l2-13b",
@@ -111,7 +119,9 @@
         "prompt": 4.5e-7,
         "completion": 6.5e-7
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "Undi95/ReMM-SLERP-L2-13B",
+      "description": "A recreation trial of the original MythoMax-L2-B13 but with updated models. #merge"
     },
     {
       "id": "tencent/hunyuan-a13b-instruct",
@@ -132,7 +142,9 @@
         "prompt": 1.4e-7,
         "completion": 5.7e-7
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "tencent/Hunyuan-A13B-Instruct",
+      "description": "Hunyuan-A13B is a 13B active parameter Mixture-of-Experts (MoE) language model developed by Tencent, with a total parameter count of 80B and support for reasoning via Chain-of-Thought. It offers competitive benchmark..."
     },
     {
       "id": "google/gemma-3-12b-it",
@@ -153,7 +165,9 @@
         "prompt": 4e-8,
         "completion": 1.3e-7
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "google/gemma-3-12b-it",
+      "description": "Gemma 3 introduces multimodality, supporting vision-language input and text outputs. It handles context windows up to 128k tokens, understands over 140 languages, and offers improved math, reasoning, and chat capabilities,..."
     },
     {
       "id": "google/gemma-3-12b-it:free",
@@ -174,7 +188,9 @@
         "prompt": 0,
         "completion": 0
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "google/gemma-3-12b-it",
+      "description": "Gemma 3 introduces multimodality, supporting vision-language input and text outputs. It handles context windows up to 128k tokens, understands over 140 languages, and offers improved math, reasoning, and chat capabilities,..."
     },
     {
       "id": "meta-llama/llama-guard-4-12b",
@@ -195,7 +211,9 @@
         "prompt": 1.8e-7,
         "completion": 1.8e-7
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "meta-llama/Llama-Guard-4-12B",
+      "description": "Llama Guard 4 is a Llama 4 Scout-derived multimodal pretrained model, fine-tuned for content safety classification. Similar to previous versions, it can be used to classify content in both LLM..."
     },
     {
       "id": "mistralai/mistral-medium-3",
@@ -216,7 +234,9 @@
         "prompt": 4e-7,
         "completion": 0.000002
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "",
+      "description": "Mistral Medium 3 is a high-performance enterprise-grade language model designed to deliver frontier-level capabilities at significantly reduced operational cost. It balances state-of-the-art reasoning and multimodal performance with 8× lower cost..."
     },
     {
       "id": "mistralai/mistral-medium-3.1",
@@ -237,7 +257,9 @@
         "prompt": 4e-7,
         "completion": 0.000002
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "",
+      "description": "Mistral Medium 3.1 is an updated version of Mistral Medium 3, which is a high-performance enterprise-grade language model designed to deliver frontier-level capabilities at significantly reduced operational cost. It balances..."
     },
     {
       "id": "nvidia/nemotron-3-super-120b-a12b",
@@ -258,7 +280,9 @@
         "prompt": 9e-8,
         "completion": 4.5e-7
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8",
+      "description": "NVIDIA Nemotron 3 Super is a 120B-parameter open hybrid MoE model, activating just 12B parameters for maximum compute efficiency and accuracy in complex multi-agent applications. Built on a hybrid Mamba-Transformer..."
     },
     {
       "id": "nvidia/nemotron-3-super-120b-a12b:free",
@@ -279,7 +303,9 @@
         "prompt": 0,
         "completion": 0
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8",
+      "description": "NVIDIA Nemotron 3 Super is a 120B-parameter open hybrid MoE model, activating just 12B parameters for maximum compute efficiency and accuracy in complex multi-agent applications. Built on a hybrid Mamba-Transformer..."
     },
     {
       "id": "nvidia/nemotron-nano-12b-v2-vl",
@@ -300,7 +326,9 @@
         "prompt": 2e-7,
         "completion": 6e-7
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL-BF16",
+      "description": "NVIDIA Nemotron Nano 2 VL is a 12-billion-parameter open multimodal reasoning model designed for video understanding and document intelligence. It introduces a hybrid Transformer-Mamba architecture, combining transformer-level accuracy with Mamba’s..."
     },
     {
       "id": "nvidia/nemotron-nano-12b-v2-vl:free",
@@ -321,7 +349,9 @@
         "prompt": 0,
         "completion": 0
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL-BF16",
+      "description": "NVIDIA Nemotron Nano 2 VL is a 12-billion-parameter open multimodal reasoning model designed for video understanding and document intelligence. It introduces a hybrid Transformer-Mamba architecture, combining transformer-level accuracy with Mamba’s..."
     },
     {
       "id": "thedrummer/rocinante-12b",
@@ -342,7 +372,9 @@
         "prompt": 1.7e-7,
         "completion": 4.3e-7
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "TheDrummer/Rocinante-12B-v1.1",
+      "description": "Rocinante 12B is designed for engaging storytelling and rich prose. Early testers have reported: - Expanded vocabulary with unique and expressive word choices - Enhanced creativity for vivid narratives -..."
     },
     {
       "id": "thedrummer/unslopnemo-12b",
@@ -363,7 +395,9 @@
         "prompt": 4e-7,
         "completion": 4e-7
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "TheDrummer/UnslopNemo-12B-v4.1",
+      "description": "UnslopNemo v4.1 is the latest addition from the creator of Rocinante, designed for adventure writing and role-play scenarios."
     },
     {
       "id": "meta-llama/llama-3.2-11b-vision-instruct",
@@ -384,7 +418,9 @@
         "prompt": 2.45e-7,
         "completion": 2.45e-7
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "meta-llama/Llama-3.2-11B-Vision-Instruct",
+      "description": "Llama 3.2 11B Vision is a multimodal model with 11 billion parameters, designed to handle tasks combining visual and textual data. It excels in tasks such as image captioning and..."
     },
     {
       "id": "stepfun/step-3.5-flash",
@@ -405,7 +441,9 @@
         "prompt": 1e-7,
         "completion": 3e-7
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "stepfun-ai/Step-3.5-Flash",
+      "description": "Step 3.5 Flash is StepFun's most capable open-source foundation model. Built on a sparse Mixture of Experts (MoE) architecture, it selectively activates only 11B of its 196B parameters per token...."
     },
     {
       "id": "qwen/qwen3.5-122b-a10b",
@@ -426,7 +464,9 @@
         "prompt": 2.6e-7,
         "completion": 0.00000208
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "Qwen/Qwen3.5-122B-A10B",
+      "description": "The Qwen3.5 122B-A10B native vision-language model is built on a hybrid architecture that integrates a linear attention mechanism with a sparse mixture-of-experts model, achieving higher inference efficiency. In terms of..."
     },
     {
       "id": "nvidia/nemotron-nano-9b-v2",
@@ -447,7 +487,9 @@
         "prompt": 4e-8,
         "completion": 1.6e-7
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "nvidia/NVIDIA-Nemotron-Nano-9B-v2",
+      "description": "NVIDIA-Nemotron-Nano-9B-v2 is a large language model (LLM) trained from scratch by NVIDIA, and designed as a unified model for both reasoning and non-reasoning tasks. It responds to user queries and..."
     },
     {
       "id": "nvidia/nemotron-nano-9b-v2:free",
@@ -468,7 +510,9 @@
         "prompt": 0,
         "completion": 0
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "nvidia/NVIDIA-Nemotron-Nano-9B-v2",
+      "description": "NVIDIA-Nemotron-Nano-9B-v2 is a large language model (LLM) trained from scratch by NVIDIA, and designed as a unified model for both reasoning and non-reasoning tasks. It responds to user queries and..."
     },
     {
       "id": "qwen/qwen3.5-9b",
@@ -489,7 +533,9 @@
         "prompt": 1e-7,
         "completion": 1.5e-7
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "Qwen/Qwen3.5-9B",
+      "description": "Qwen3.5-9B is a multimodal foundation model from the Qwen3.5 family, designed to deliver strong reasoning, coding, and visual understanding in an efficient 9B-parameter architecture. It uses a unified vision-language design..."
     },
     {
       "id": "aion-labs/aion-rp-llama-3.1-8b",
@@ -510,7 +556,9 @@
         "prompt": 8e-7,
         "completion": 0.0000016
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "",
+      "description": "Aion-RP-Llama-3.1-8B ranks the highest in the character evaluation portion of the RPBench-Auto benchmark, a roleplaying-specific variant of Arena-Hard-Auto, where LLMs evaluate each other’s responses. It is a fine-tuned base model..."
     },
     {
       "id": "meta-llama/llama-guard-3-8b",
@@ -531,7 +579,9 @@
         "prompt": 4.8e-7,
         "completion": 3e-8
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "meta-llama/Llama-Guard-3-8B",
+      "description": "Llama Guard 3 is a Llama-3.1-8B pretrained model, fine-tuned for content safety classification. Similar to previous versions, it can be used to classify content in both LLM inputs (prompt classification)..."
     },
     {
       "id": "meta-llama/llama-3-8b-instruct",
@@ -552,7 +602,9 @@
         "prompt": 3e-8,
         "completion": 4e-8
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "meta-llama/Meta-Llama-3-8B-Instruct",
+      "description": "Meta's latest class of model (Llama 3) launched with a variety of sizes & flavors. This 8B instruct-tuned version was optimized for high quality dialogue usecases. It has demonstrated strong..."
     },
     {
       "id": "meta-llama/llama-3.1-8b-instruct",
@@ -573,7 +625,9 @@
         "prompt": 2e-8,
         "completion": 5e-8
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+      "description": "Meta's latest class of model (Llama 3.1) launched with a variety of sizes & flavors. This 8B instruct-tuned version is fast and efficient. It has demonstrated strong performance compared to..."
     },
     {
       "id": "mistralai/ministral-8b-2512",
@@ -594,7 +648,9 @@
         "prompt": 1.5e-7,
         "completion": 1.5e-7
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "mistralai/Ministral-3-8B-Instruct-2512",
+      "description": "A balanced model in the Ministral 3 family, Ministral 3 8B is a powerful, efficient tiny language model with vision capabilities."
     },
     {
       "id": "mistralai/mistral-small-24b-instruct-2501",
@@ -615,7 +671,9 @@
         "prompt": 5e-8,
         "completion": 8e-8
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "mistralai/Mistral-Small-24B-Instruct-2501",
+      "description": "Mistral Small 3 is a 24B-parameter language model optimized for low-latency performance across common AI tasks. Released under the Apache 2.0 license, it features both pre-trained and instruction-tuned versions designed..."
     },
     {
       "id": "mistralai/mistral-small-3.1-24b-instruct",
@@ -636,7 +694,9 @@
         "prompt": 3.5e-7,
         "completion": 5.6e-7
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "mistralai/Mistral-Small-3.1-24B-Instruct-2503",
+      "description": "Mistral Small 3.1 24B Instruct is an upgraded variant of Mistral Small 3 (2501), featuring 24 billion parameters with advanced multimodal capabilities. It provides state-of-the-art performance in text-based reasoning and..."
     },
     {
       "id": "mistralai/mistral-small-3.2-24b-instruct",
@@ -657,7 +717,9 @@
         "prompt": 7.5e-8,
         "completion": 2e-7
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "mistralai/Mistral-Small-3.2-24B-Instruct-2506",
+      "description": "Mistral-Small-3.2-24B-Instruct-2506 is an updated 24B parameter model from Mistral optimized for instruction following, repetition reduction, and improved function calling. Compared to the 3.1 release, version 3.2 significantly improves accuracy on..."
     },
     {
       "id": "mistralai/mistral-small-2603",
@@ -678,7 +740,9 @@
         "prompt": 1.5e-7,
         "completion": 6e-7
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "mistralai/Mistral-Small-4-119B-2603",
+      "description": "Mistral Small 4 is the next major release in the Mistral Small family, unifying the capabilities of several flagship Mistral models into a single system. It combines strong reasoning from..."
     },
     {
       "id": "mistralai/mistral-small-creative",
@@ -699,7 +763,9 @@
         "prompt": 1e-7,
         "completion": 3e-7
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": null,
+      "description": "Mistral Small Creative is an experimental small model designed for creative writing, narrative generation, roleplay and character-driven dialogue, general-purpose instruction following, and conversational agents."
     },
     {
       "id": "nousresearch/hermes-2-pro-llama-3-8b",
@@ -720,7 +786,9 @@
         "prompt": 1.4e-7,
         "completion": 1.4e-7
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "NousResearch/Hermes-2-Pro-Llama-3-8B",
+      "description": "Hermes 2 Pro is an upgraded, retrained version of Nous Hermes 2, consisting of an updated and cleaned version of the OpenHermes 2.5 Dataset, as well as a newly introduced..."
     },
     {
       "id": "qwen/qwen3-8b",
@@ -741,7 +809,9 @@
         "prompt": 5e-8,
         "completion": 4e-7
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "Qwen/Qwen3-8B",
+      "description": "Qwen3-8B is a dense 8.2B parameter causal language model from the Qwen3 series, designed for both reasoning-heavy tasks and efficient dialogue. It supports seamless switching between \"thinking\" mode for math,..."
     },
     {
       "id": "qwen/qwen3-vl-8b-instruct",
@@ -762,7 +832,9 @@
         "prompt": 8e-8,
         "completion": 5e-7
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "Qwen/Qwen3-VL-8B-Instruct",
+      "description": "Qwen3-VL-8B-Instruct is a multimodal vision-language model from the Qwen3-VL series, built for high-fidelity understanding and reasoning across text, images, and video. It features improved multimodal fusion with Interleaved-MRoPE for long-horizon..."
     },
     {
       "id": "qwen/qwen3-vl-8b-thinking",
@@ -783,7 +855,9 @@
         "prompt": 1.17e-7,
         "completion": 0.000001365
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "Qwen/Qwen3-VL-8B-Thinking",
+      "description": "Qwen3-VL-8B-Thinking is the reasoning-optimized variant of the Qwen3-VL-8B multimodal model, designed for advanced visual and textual reasoning across complex scenes, documents, and temporal sequences. It integrates enhanced multimodal alignment and..."
     },
     {
       "id": "sao10k/l3-lunaris-8b",
@@ -804,7 +878,9 @@
         "prompt": 4e-8,
         "completion": 5e-8
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "Sao10K/L3-8B-Lunaris-v1",
+      "description": "Lunaris 8B is a versatile generalist and roleplaying model based on Llama 3. It's a strategic merge of multiple models, designed to balance creativity with improved logic and general knowledge...."
     },
     {
       "id": "alfredpros/codellama-7b-instruct-solidity",
@@ -825,7 +901,9 @@
         "prompt": 8e-7,
         "completion": 0.0000012
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "AlfredPros/CodeLlama-7b-Instruct-Solidity",
+      "description": "A finetuned 7 billion parameters Code LLaMA - Instruct model to generate Solidity smart contract using 4-bit QLoRA finetuning provided by PEFT library."
     },
     {
       "id": "bytedance/ui-tars-1.5-7b",
@@ -846,7 +924,9 @@
         "prompt": 1e-7,
         "completion": 2e-7
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "ByteDance-Seed/UI-TARS-1.5-7B",
+      "description": "UI-TARS-1.5 is a multimodal vision-language agent optimized for GUI-based environments, including desktop interfaces, web browsers, mobile systems, and games. Built by ByteDance, it builds upon the UI-TARS framework with reinforcement..."
     },
     {
       "id": "cohere/command-r7b-12-2024",
@@ -867,7 +947,9 @@
         "prompt": 3.75e-8,
         "completion": 1.5e-7
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "",
+      "description": "Command R7B (12-2024) is a small, fast update of the Command R+ model, delivered in December 2024. It excels at RAG, tool use, agents, and similar tasks requiring complex reasoning..."
     },
     {
       "id": "mistralai/mistral-7b-instruct-v0.1",
@@ -888,7 +970,9 @@
         "prompt": 1.1e-7,
         "completion": 1.9e-7
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "mistralai/Mistral-7B-Instruct-v0.1",
+      "description": "A 7.3B parameter model that outperforms Llama 2 13B on all benchmarks, with optimizations for speed and context length."
     },
     {
       "id": "qwen/qwen-2.5-7b-instruct",
@@ -909,7 +993,9 @@
         "prompt": 4e-8,
         "completion": 1e-7
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "Qwen/Qwen2.5-7B-Instruct",
+      "description": "Qwen2.5 7B is the latest series of Qwen large language models. Qwen2.5 brings the following improvements upon Qwen2: - Significantly more knowledge and has greatly improved capabilities in coding and..."
     },
     {
       "id": "google/gemma-3-4b-it",
@@ -930,7 +1016,9 @@
         "prompt": 4e-8,
         "completion": 8e-8
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "google/gemma-3-4b-it",
+      "description": "Gemma 3 introduces multimodality, supporting vision-language input and text outputs. It handles context windows up to 128k tokens, understands over 140 languages, and offers improved math, reasoning, and chat capabilities,..."
     },
     {
       "id": "google/gemma-3-4b-it:free",
@@ -951,7 +1039,9 @@
         "prompt": 0,
         "completion": 0
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "google/gemma-3-4b-it",
+      "description": "Gemma 3 introduces multimodality, supporting vision-language input and text outputs. It handles context windows up to 128k tokens, understands over 140 languages, and offers improved math, reasoning, and chat capabilities,..."
     },
     {
       "id": "google/gemma-3n-e4b-it",
@@ -972,7 +1062,9 @@
         "prompt": 6e-8,
         "completion": 1.2e-7
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "google/gemma-3n-E4B-it",
+      "description": "Gemma 3n E4B-it is optimized for efficient execution on mobile and low-resource devices, such as phones, laptops, and tablets. It supports multimodal inputs—including text, visual data, and audio—enabling diverse tasks..."
     },
     {
       "id": "google/gemma-3n-e4b-it:free",
@@ -993,7 +1085,9 @@
         "prompt": 0,
         "completion": 0
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "google/gemma-3n-E4B-it",
+      "description": "Gemma 3n E4B-it is optimized for efficient execution on mobile and low-resource devices, such as phones, laptops, and tablets. It supports multimodal inputs—including text, visual data, and audio—enabling diverse tasks..."
     },
     {
       "id": "google/gemma-4-26b-a4b-it",
@@ -1011,10 +1105,12 @@
       "multimodal": true,
       "license": "",
       "pricing": {
-        "prompt": 8e-8,
+        "prompt": 7e-8,
         "completion": 3.5e-7
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "google/gemma-4-26B-A4B-it",
+      "description": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind. Despite 25.2B total parameters, only 3.8B activate per token during inference — delivering near-31B quality at..."
     },
     {
       "id": "google/gemma-4-26b-a4b-it:free",
@@ -1035,7 +1131,9 @@
         "prompt": 0,
         "completion": 0
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "google/gemma-4-26B-A4B-it",
+      "description": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind. Despite 25.2B total parameters, only 3.8B activate per token during inference — delivering near-31B quality at..."
     },
     {
       "id": "baidu/ernie-4.5-21b-a3b",
@@ -1056,7 +1154,9 @@
         "prompt": 7e-8,
         "completion": 2.8e-7
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "baidu/ERNIE-4.5-21B-A3B-PT",
+      "description": "A sophisticated text-based Mixture-of-Experts (MoE) model featuring 21B total parameters with 3B activated per token, delivering exceptional multimodal understanding and generation through heterogeneous MoE structures and modality-isolated routing. Supporting an..."
     },
     {
       "id": "baidu/ernie-4.5-21b-a3b-thinking",
@@ -1077,7 +1177,9 @@
         "prompt": 7e-8,
         "completion": 2.8e-7
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "baidu/ERNIE-4.5-21B-A3B-Thinking",
+      "description": "ERNIE-4.5-21B-A3B-Thinking is Baidu's upgraded lightweight MoE model, refined to boost reasoning depth and quality for top-tier performance in logical puzzles, math, science, coding, text generation, and expert-level academic benchmarks."
     },
     {
       "id": "baidu/ernie-4.5-vl-28b-a3b",
@@ -1098,7 +1200,9 @@
         "prompt": 1.4e-7,
         "completion": 5.6e-7
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "baidu/ERNIE-4.5-VL-28B-A3B-PT",
+      "description": "A powerful multimodal Mixture-of-Experts chat model featuring 28B total parameters with 3B activated per token, delivering exceptional text and vision understanding through its innovative heterogeneous MoE structure with modality-isolated routing...."
     },
     {
       "id": "meta-llama/llama-3.2-3b-instruct",
@@ -1119,7 +1223,9 @@
         "prompt": 5.1e-8,
         "completion": 3.4e-7
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "meta-llama/Llama-3.2-3B-Instruct",
+      "description": "Llama 3.2 3B is a 3-billion-parameter multilingual large language model, optimized for advanced natural language processing tasks like dialogue generation, reasoning, and summarization. Designed with the latest transformer architecture, it..."
     },
     {
       "id": "meta-llama/llama-3.2-3b-instruct:free",
@@ -1140,7 +1246,9 @@
         "prompt": 0,
         "completion": 0
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "meta-llama/Llama-3.2-3B-Instruct",
+      "description": "Llama 3.2 3B is a 3-billion-parameter multilingual large language model, optimized for advanced natural language processing tasks like dialogue generation, reasoning, and summarization. Designed with the latest transformer architecture, it..."
     },
     {
       "id": "mistralai/ministral-3b-2512",
@@ -1161,7 +1269,9 @@
         "prompt": 1e-7,
         "completion": 1e-7
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "mistralai/Ministral-3-3B-Instruct-2512",
+      "description": "The smallest model in the Ministral 3 family, Ministral 3 3B is a powerful, efficient tiny language model with vision capabilities."
     },
     {
       "id": "nvidia/nemotron-3-nano-30b-a3b",
@@ -1182,7 +1292,9 @@
         "prompt": 5e-8,
         "completion": 2e-7
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16",
+      "description": "NVIDIA Nemotron 3 Nano 30B A3B is a small language MoE model with highest compute efficiency and accuracy for developers to build specialized agentic AI systems. The model is fully..."
     },
     {
       "id": "nvidia/nemotron-3-nano-30b-a3b:free",
@@ -1203,7 +1315,9 @@
         "prompt": 0,
         "completion": 0
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16",
+      "description": "NVIDIA Nemotron 3 Nano 30B A3B is a small language MoE model with highest compute efficiency and accuracy for developers to build specialized agentic AI systems. The model is fully..."
     },
     {
       "id": "qwen/qwen3-30b-a3b",
@@ -1224,7 +1338,9 @@
         "prompt": 8e-8,
         "completion": 2.8e-7
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "Qwen/Qwen3-30B-A3B",
+      "description": "Qwen3, the latest generation in the Qwen large language model series, features both dense and mixture-of-experts (MoE) architectures to excel in reasoning, multilingual support, and advanced agent tasks. Its unique..."
     },
     {
       "id": "qwen/qwen3-30b-a3b-instruct-2507",
@@ -1245,7 +1361,9 @@
         "prompt": 9e-8,
         "completion": 3e-7
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+      "description": "Qwen3-30B-A3B-Instruct-2507 is a 30.5B-parameter mixture-of-experts language model from Qwen, with 3.3B active parameters per inference. It operates in non-thinking mode and is designed for high-quality instruction following, multilingual understanding, and..."
     },
     {
       "id": "qwen/qwen3-30b-a3b-thinking-2507",
@@ -1266,7 +1384,9 @@
         "prompt": 8e-8,
         "completion": 4e-7
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "Qwen/Qwen3-30B-A3B-Thinking-2507",
+      "description": "Qwen3-30B-A3B-Thinking-2507 is a 30B parameter Mixture-of-Experts reasoning model optimized for complex tasks requiring extended multi-step thinking. The model is designed specifically for “thinking mode,” where internal reasoning traces are separated..."
     },
     {
       "id": "qwen/qwen3-coder-30b-a3b-instruct",
@@ -1287,7 +1407,9 @@
         "prompt": 7e-8,
         "completion": 2.7e-7
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
+      "description": "Qwen3-Coder-30B-A3B-Instruct is a 30.5B parameter Mixture-of-Experts (MoE) model with 128 experts (8 active per forward pass), designed for advanced code generation, repository-scale understanding, and agentic tool use. Built on the..."
     },
     {
       "id": "qwen/qwen3-next-80b-a3b-instruct",
@@ -1308,7 +1430,9 @@
         "prompt": 9e-8,
         "completion": 0.0000011
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "Qwen/Qwen3-Next-80B-A3B-Instruct",
+      "description": "Qwen3-Next-80B-A3B-Instruct is an instruction-tuned chat model in the Qwen3-Next series optimized for fast, stable responses without “thinking” traces. It targets complex tasks across reasoning, code generation, knowledge QA, and multilingual..."
     },
     {
       "id": "qwen/qwen3-next-80b-a3b-instruct:free",
@@ -1329,7 +1453,9 @@
         "prompt": 0,
         "completion": 0
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "Qwen/Qwen3-Next-80B-A3B-Instruct",
+      "description": "Qwen3-Next-80B-A3B-Instruct is an instruction-tuned chat model in the Qwen3-Next series optimized for fast, stable responses without “thinking” traces. It targets complex tasks across reasoning, code generation, knowledge QA, and multilingual..."
     },
     {
       "id": "qwen/qwen3-next-80b-a3b-thinking",
@@ -1350,7 +1476,9 @@
         "prompt": 9.75e-8,
         "completion": 7.8e-7
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "Qwen/Qwen3-Next-80B-A3B-Thinking",
+      "description": "Qwen3-Next-80B-A3B-Thinking is a reasoning-first chat model in the Qwen3-Next line that outputs structured “thinking” traces by default. It’s designed for hard multi-step problems; math proofs, code synthesis/debugging, logic, and agentic..."
     },
     {
       "id": "qwen/qwen3-vl-30b-a3b-instruct",
@@ -1371,7 +1499,9 @@
         "prompt": 1.3e-7,
         "completion": 5.2e-7
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "Qwen/Qwen3-VL-30B-A3B-Instruct",
+      "description": "Qwen3-VL-30B-A3B-Instruct is a multimodal model that unifies strong text generation with visual understanding for images and videos. Its Instruct variant optimizes instruction-following for general multimodal tasks. It excels in perception..."
     },
     {
       "id": "qwen/qwen3-vl-30b-a3b-thinking",
@@ -1392,7 +1522,9 @@
         "prompt": 1.3e-7,
         "completion": 0.00000156
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "Qwen/Qwen3-VL-30B-A3B-Thinking",
+      "description": "Qwen3-VL-30B-A3B-Thinking is a multimodal model that unifies strong text generation with visual understanding for images and videos. Its Thinking variant enhances reasoning in STEM, math, and complex tasks. It excels..."
     },
     {
       "id": "qwen/qwen3.5-35b-a3b",
@@ -1413,7 +1545,9 @@
         "prompt": 1.625e-7,
         "completion": 0.0000013
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "Qwen/Qwen3.5-35B-A3B",
+      "description": "The Qwen3.5 Series 35B-A3B is a native vision-language model designed with a hybrid architecture that integrates linear attention mechanisms and a sparse mixture-of-experts model, achieving higher inference efficiency. Its overall..."
     },
     {
       "id": "alibaba/tongyi-deepresearch-30b-a3b",
@@ -1434,7 +1568,9 @@
         "prompt": 9e-8,
         "completion": 4.5e-7
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "Alibaba-NLP/Tongyi-DeepResearch-30B-A3B",
+      "description": "Tongyi DeepResearch is an agentic large language model developed by Tongyi Lab, with 30 billion total parameters activating only 3 billion per token. It's optimized for long-horizon, deep information-seeking tasks..."
     },
     {
       "id": "google/gemma-3n-e2b-it:free",
@@ -1455,7 +1591,9 @@
         "prompt": 0,
         "completion": 0
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "google/gemma-3n-E2B-it",
+      "description": "Gemma 3n E2B IT is a multimodal, instruction-tuned model developed by Google DeepMind, designed to operate efficiently at an effective parameter size of 2B while leveraging a 6B architecture. Based..."
     },
     {
       "id": "liquid/lfm-2-24b-a2b",
@@ -1476,7 +1614,9 @@
         "prompt": 3e-8,
         "completion": 1.2e-7
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "LiquidAI/LFM2-24B-A2B",
+      "description": "LFM2-24B-A2B is the largest model in the LFM2 family of hybrid architectures designed for efficient on-device deployment. Built as a 24B parameter Mixture-of-Experts model with only 2B active parameters per..."
     },
     {
       "id": "liquid/lfm-2.5-1.2b-instruct:free",
@@ -1497,7 +1637,9 @@
         "prompt": 0,
         "completion": 0
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "LiquidAI/LFM2.5-1.2B-Instruct",
+      "description": "LFM2.5-1.2B-Instruct is a compact, high-performance instruction-tuned model built for fast on-device AI. It delivers strong chat quality in a 1.2B parameter footprint, with efficient edge inference and broad runtime support."
     },
     {
       "id": "liquid/lfm-2.5-1.2b-thinking:free",
@@ -1518,7 +1660,9 @@
         "prompt": 0,
         "completion": 0
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "LiquidAI/LFM2.5-1.2B-Thinking",
+      "description": "LFM2.5-1.2B-Thinking is a lightweight reasoning-focused model optimized for agentic tasks, data extraction, and RAG—while still running comfortably on edge devices. It supports long context (up to 32K tokens) and is..."
     },
     {
       "id": "meta-llama/llama-3.2-1b-instruct",
@@ -1539,7 +1683,9 @@
         "prompt": 2.7e-8,
         "completion": 2e-7
       },
-      "office_grade": false
+      "office_grade": false,
+      "hugging_face_id": "meta-llama/Llama-3.2-1B-Instruct",
+      "description": "Llama 3.2 1B is a 1-billion-parameter language model focused on efficiently performing natural language tasks, such as summarization, dialogue, and multilingual text analysis. Its smaller size allows it to operate..."
     }
   ]
 }
