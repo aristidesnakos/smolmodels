@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-04-24T06:39:51.751Z",
+    "scraped_at": "2026-04-25T06:31:47.187Z",
     "version": "1.0",
     "scraper_version": "0.1.0",
-    "total_models": 353,
+    "total_models": 355,
     "filtered_count": 73,
     "max_params_filter": 15
   },
@@ -153,7 +153,7 @@
       "active_params_b": 12,
       "total_params_b": 12,
       "tier": "strong",
-      "tool_calling": false,
+      "tool_calling": true,
       "tool_score": null,
       "ifeval_score": null,
       "context_length": 131072,
