@@ -10,6 +10,26 @@ function sleep(ms: number): Promise<void> {
 }
 
 /**
+ * Remove free-tier duplicate models from OpenRouter's model list.
+ * OpenRouter lists some models twice: once as the base model and once with a
+ * ":free" suffix (e.g. "google/gemma-3-12b-it" and "google/gemma-3-12b-it:free").
+ * When both exist, the free variant is dropped; if only the free variant exists,
+ * it is kept so the model is not lost entirely.
+ */
+export function deduplicateFreeModels(models: OpenRouterModel[]): OpenRouterModel[] {
+  const baseIds = new Set(
+    models.filter((m) => !m.id.endsWith(":free")).map((m) => m.id)
+  );
+  return models.filter((m) => {
+    if (m.id.endsWith(":free")) {
+      const baseId = m.id.slice(0, -5);
+      return !baseIds.has(baseId);
+    }
+    return true;
+  });
+}
+
+/**
  * Fetch all models from OpenRouter's public API.
  * Retries with exponential backoff on failure.
  */
@@ -54,7 +74,7 @@ export async function fetchModels(
         console.error(`  Fetched ${data.data.length} models from OpenRouter`);
       }
 
-      return data.data;
+      return deduplicateFreeModels(data.data);
     } catch (err) {
       lastError = err instanceof Error ? err : new Error(String(err));
 
