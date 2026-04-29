@@ -4,7 +4,7 @@
     "version": "1.0",
     "scraper_version": "0.1.0",
     "total_models": 349,
-    "filtered_count": 73,
+    "filtered_count": 63,
     "max_params_filter": 15
   },
   "models": [
@@ -24,8 +24,8 @@
       "multimodal": true,
       "license": "",
       "pricing": {
-        "prompt": 2e-7,
-        "completion": 2e-7
+        "prompt": 2e-07,
+        "completion": 2e-07
       },
       "office_grade": false,
       "hugging_face_id": "mistralai/Ministral-3-14B-Instruct-2512",
@@ -47,8 +47,8 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 5.4e-7,
-        "completion": 5.4e-7
+        "prompt": 5.4e-07,
+        "completion": 5.4e-07
       },
       "office_grade": false,
       "hugging_face_id": "mistralai/Mixtral-8x7B-Instruct-v0.1",
@@ -70,8 +70,8 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 6e-8,
-        "completion": 2.4e-7
+        "prompt": 6e-08,
+        "completion": 2.4e-07
       },
       "office_grade": false,
       "hugging_face_id": "Qwen/Qwen3-14B",
@@ -93,8 +93,8 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 6e-8,
-        "completion": 6e-8
+        "prompt": 6e-08,
+        "completion": 6e-08
       },
       "office_grade": false,
       "hugging_face_id": "Gryphe/MythoMax-L2-13b",
@@ -116,8 +116,8 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 4.5e-7,
-        "completion": 6.5e-7
+        "prompt": 4.5e-07,
+        "completion": 6.5e-07
       },
       "office_grade": false,
       "hugging_face_id": "Undi95/ReMM-SLERP-L2-13B",
@@ -139,8 +139,8 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 1.4e-7,
-        "completion": 5.7e-7
+        "prompt": 1.4e-07,
+        "completion": 5.7e-07
       },
       "office_grade": false,
       "hugging_face_id": "tencent/Hunyuan-A13B-Instruct",
@@ -162,31 +162,8 @@
       "multimodal": true,
       "license": "",
       "pricing": {
-        "prompt": 4e-8,
-        "completion": 1.3e-7
-      },
-      "office_grade": false,
-      "hugging_face_id": "google/gemma-3-12b-it",
-      "description": "Gemma 3 introduces multimodality, supporting vision-language input and text outputs. It handles context windows up to 128k tokens, understands over 140 languages, and offers improved math, reasoning, and chat capabilities,..."
-    },
-    {
-      "id": "google/gemma-3-12b-it:free",
-      "name": "Google: Gemma 3 12B (free)",
-      "provider": "google",
-      "active_params_b": 12,
-      "total_params_b": 12,
-      "tier": "strong",
-      "tool_calling": false,
-      "tool_score": null,
-      "ifeval_score": null,
-      "context_length": 32768,
-      "quantized_ram_gb": 7.7,
-      "reasoning": false,
-      "multimodal": true,
-      "license": "",
-      "pricing": {
-        "prompt": 0,
-        "completion": 0
+        "prompt": 4e-08,
+        "completion": 1.3e-07
       },
       "office_grade": false,
       "hugging_face_id": "google/gemma-3-12b-it",
@@ -208,8 +185,8 @@
       "multimodal": true,
       "license": "",
       "pricing": {
-        "prompt": 1.8e-7,
-        "completion": 1.8e-7
+        "prompt": 1.8e-07,
+        "completion": 1.8e-07
       },
       "office_grade": false,
       "hugging_face_id": "meta-llama/Llama-Guard-4-12B",
@@ -231,12 +208,12 @@
       "multimodal": true,
       "license": "",
       "pricing": {
-        "prompt": 4e-7,
-        "completion": 0.000002
+        "prompt": 4e-07,
+        "completion": 2e-06
       },
       "office_grade": false,
       "hugging_face_id": "",
-      "description": "Mistral Medium 3 is a high-performance enterprise-grade language model designed to deliver frontier-level capabilities at significantly reduced operational cost. It balances state-of-the-art reasoning and multimodal performance with 8× lower cost..."
+      "description": "Mistral Medium 3 is a high-performance enterprise-grade language model designed to deliver frontier-level capabilities at significantly reduced operational cost. It balances state-of-the-art reasoning and multimodal performance with 8\u00d7 lower cost..."
     },
     {
       "id": "mistralai/mistral-medium-3.1",
@@ -254,8 +231,8 @@
       "multimodal": true,
       "license": "",
       "pricing": {
-        "prompt": 4e-7,
-        "completion": 0.000002
+        "prompt": 4e-07,
+        "completion": 2e-06
       },
       "office_grade": false,
       "hugging_face_id": "",
@@ -277,31 +254,8 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 9e-8,
-        "completion": 4.5e-7
-      },
-      "office_grade": false,
-      "hugging_face_id": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8",
-      "description": "NVIDIA Nemotron 3 Super is a 120B-parameter open hybrid MoE model, activating just 12B parameters for maximum compute efficiency and accuracy in complex multi-agent applications. Built on a hybrid Mamba-Transformer..."
-    },
-    {
-      "id": "nvidia/nemotron-3-super-120b-a12b:free",
-      "name": "NVIDIA: Nemotron 3 Super (free)",
-      "provider": "nvidia",
-      "active_params_b": 12,
-      "total_params_b": 12,
-      "tier": "strong",
-      "tool_calling": true,
-      "tool_score": null,
-      "ifeval_score": null,
-      "context_length": 262144,
-      "quantized_ram_gb": 7.7,
-      "reasoning": false,
-      "multimodal": false,
-      "license": "",
-      "pricing": {
-        "prompt": 0,
-        "completion": 0
+        "prompt": 9e-08,
+        "completion": 4.5e-07
       },
       "office_grade": false,
       "hugging_face_id": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8",
@@ -323,35 +277,12 @@
       "multimodal": true,
       "license": "",
       "pricing": {
-        "prompt": 2e-7,
-        "completion": 6e-7
+        "prompt": 2e-07,
+        "completion": 6e-07
       },
       "office_grade": false,
       "hugging_face_id": "nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL-BF16",
-      "description": "NVIDIA Nemotron Nano 2 VL is a 12-billion-parameter open multimodal reasoning model designed for video understanding and document intelligence. It introduces a hybrid Transformer-Mamba architecture, combining transformer-level accuracy with Mamba’s..."
-    },
-    {
-      "id": "nvidia/nemotron-nano-12b-v2-vl:free",
-      "name": "NVIDIA: Nemotron Nano 12B 2 VL (free)",
-      "provider": "nvidia",
-      "active_params_b": 12,
-      "total_params_b": 12,
-      "tier": "strong",
-      "tool_calling": true,
-      "tool_score": null,
-      "ifeval_score": null,
-      "context_length": 128000,
-      "quantized_ram_gb": 7.7,
-      "reasoning": false,
-      "multimodal": true,
-      "license": "",
-      "pricing": {
-        "prompt": 0,
-        "completion": 0
-      },
-      "office_grade": false,
-      "hugging_face_id": "nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL-BF16",
-      "description": "NVIDIA Nemotron Nano 2 VL is a 12-billion-parameter open multimodal reasoning model designed for video understanding and document intelligence. It introduces a hybrid Transformer-Mamba architecture, combining transformer-level accuracy with Mamba’s..."
+      "description": "NVIDIA Nemotron Nano 2 VL is a 12-billion-parameter open multimodal reasoning model designed for video understanding and document intelligence. It introduces a hybrid Transformer-Mamba architecture, combining transformer-level accuracy with Mamba\u2019s..."
     },
     {
       "id": "thedrummer/rocinante-12b",
@@ -369,8 +300,8 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 1.7e-7,
-        "completion": 4.3e-7
+        "prompt": 1.7e-07,
+        "completion": 4.3e-07
       },
       "office_grade": false,
       "hugging_face_id": "TheDrummer/Rocinante-12B-v1.1",
@@ -392,8 +323,8 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 4e-7,
-        "completion": 4e-7
+        "prompt": 4e-07,
+        "completion": 4e-07
       },
       "office_grade": false,
       "hugging_face_id": "TheDrummer/UnslopNemo-12B-v4.1",
@@ -415,8 +346,8 @@
       "multimodal": true,
       "license": "",
       "pricing": {
-        "prompt": 2.45e-7,
-        "completion": 2.45e-7
+        "prompt": 2.45e-07,
+        "completion": 2.45e-07
       },
       "office_grade": false,
       "hugging_face_id": "meta-llama/Llama-3.2-11B-Vision-Instruct",
@@ -438,8 +369,8 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 1e-7,
-        "completion": 3e-7
+        "prompt": 1e-07,
+        "completion": 3e-07
       },
       "office_grade": false,
       "hugging_face_id": "stepfun-ai/Step-3.5-Flash",
@@ -461,8 +392,8 @@
       "multimodal": true,
       "license": "",
       "pricing": {
-        "prompt": 2.6e-7,
-        "completion": 0.00000208
+        "prompt": 2.6e-07,
+        "completion": 2.08e-06
       },
       "office_grade": false,
       "hugging_face_id": "Qwen/Qwen3.5-122B-A10B",
@@ -484,31 +415,8 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 4e-8,
-        "completion": 1.6e-7
-      },
-      "office_grade": false,
-      "hugging_face_id": "nvidia/NVIDIA-Nemotron-Nano-9B-v2",
-      "description": "NVIDIA-Nemotron-Nano-9B-v2 is a large language model (LLM) trained from scratch by NVIDIA, and designed as a unified model for both reasoning and non-reasoning tasks. It responds to user queries and..."
-    },
-    {
-      "id": "nvidia/nemotron-nano-9b-v2:free",
-      "name": "NVIDIA: Nemotron Nano 9B V2 (free)",
-      "provider": "nvidia",
-      "active_params_b": 9,
-      "total_params_b": 9,
-      "tier": "strong",
-      "tool_calling": true,
-      "tool_score": null,
-      "ifeval_score": null,
-      "context_length": 128000,
-      "quantized_ram_gb": 5.9,
-      "reasoning": false,
-      "multimodal": false,
-      "license": "",
-      "pricing": {
-        "prompt": 0,
-        "completion": 0
+        "prompt": 4e-08,
+        "completion": 1.6e-07
       },
       "office_grade": false,
       "hugging_face_id": "nvidia/NVIDIA-Nemotron-Nano-9B-v2",
@@ -530,8 +438,8 @@
       "multimodal": true,
       "license": "",
       "pricing": {
-        "prompt": 1e-7,
-        "completion": 1.5e-7
+        "prompt": 1e-07,
+        "completion": 1.5e-07
       },
       "office_grade": false,
       "hugging_face_id": "Qwen/Qwen3.5-9B",
@@ -553,12 +461,12 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 8e-7,
-        "completion": 0.0000016
+        "prompt": 8e-07,
+        "completion": 1.6e-06
       },
       "office_grade": false,
       "hugging_face_id": "",
-      "description": "Aion-RP-Llama-3.1-8B ranks the highest in the character evaluation portion of the RPBench-Auto benchmark, a roleplaying-specific variant of Arena-Hard-Auto, where LLMs evaluate each other’s responses. It is a fine-tuned base model..."
+      "description": "Aion-RP-Llama-3.1-8B ranks the highest in the character evaluation portion of the RPBench-Auto benchmark, a roleplaying-specific variant of Arena-Hard-Auto, where LLMs evaluate each other\u2019s responses. It is a fine-tuned base model..."
     },
     {
       "id": "meta-llama/llama-guard-3-8b",
@@ -576,8 +484,8 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 4.8e-7,
-        "completion": 3e-8
+        "prompt": 4.8e-07,
+        "completion": 3e-08
       },
       "office_grade": false,
       "hugging_face_id": "meta-llama/Llama-Guard-3-8B",
@@ -599,8 +507,8 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 3e-8,
-        "completion": 4e-8
+        "prompt": 3e-08,
+        "completion": 4e-08
       },
       "office_grade": false,
       "hugging_face_id": "meta-llama/Meta-Llama-3-8B-Instruct",
@@ -622,8 +530,8 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 2e-8,
-        "completion": 5e-8
+        "prompt": 2e-08,
+        "completion": 5e-08
       },
       "office_grade": false,
       "hugging_face_id": "meta-llama/Meta-Llama-3.1-8B-Instruct",
@@ -645,8 +553,8 @@
       "multimodal": true,
       "license": "",
       "pricing": {
-        "prompt": 1.5e-7,
-        "completion": 1.5e-7
+        "prompt": 1.5e-07,
+        "completion": 1.5e-07
       },
       "office_grade": false,
       "hugging_face_id": "mistralai/Ministral-3-8B-Instruct-2512",
@@ -668,8 +576,8 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 5e-8,
-        "completion": 8e-8
+        "prompt": 5e-08,
+        "completion": 8e-08
       },
       "office_grade": false,
       "hugging_face_id": "mistralai/Mistral-Small-24B-Instruct-2501",
@@ -691,8 +599,8 @@
       "multimodal": true,
       "license": "",
       "pricing": {
-        "prompt": 3.5e-7,
-        "completion": 5.6e-7
+        "prompt": 3.5e-07,
+        "completion": 5.6e-07
       },
       "office_grade": false,
       "hugging_face_id": "mistralai/Mistral-Small-3.1-24B-Instruct-2503",
@@ -714,8 +622,8 @@
       "multimodal": true,
       "license": "",
       "pricing": {
-        "prompt": 7.5e-8,
-        "completion": 2e-7
+        "prompt": 7.5e-08,
+        "completion": 2e-07
       },
       "office_grade": false,
       "hugging_face_id": "mistralai/Mistral-Small-3.2-24B-Instruct-2506",
@@ -737,8 +645,8 @@
       "multimodal": true,
       "license": "",
       "pricing": {
-        "prompt": 1.5e-7,
-        "completion": 6e-7
+        "prompt": 1.5e-07,
+        "completion": 6e-07
       },
       "office_grade": false,
       "hugging_face_id": "mistralai/Mistral-Small-4-119B-2603",
@@ -760,8 +668,8 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 1e-7,
-        "completion": 3e-7
+        "prompt": 1e-07,
+        "completion": 3e-07
       },
       "office_grade": false,
       "hugging_face_id": null,
@@ -783,8 +691,8 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 1.4e-7,
-        "completion": 1.4e-7
+        "prompt": 1.4e-07,
+        "completion": 1.4e-07
       },
       "office_grade": false,
       "hugging_face_id": "NousResearch/Hermes-2-Pro-Llama-3-8B",
@@ -806,8 +714,8 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 5e-8,
-        "completion": 4e-7
+        "prompt": 5e-08,
+        "completion": 4e-07
       },
       "office_grade": false,
       "hugging_face_id": "Qwen/Qwen3-8B",
@@ -829,8 +737,8 @@
       "multimodal": true,
       "license": "",
       "pricing": {
-        "prompt": 8e-8,
-        "completion": 5e-7
+        "prompt": 8e-08,
+        "completion": 5e-07
       },
       "office_grade": false,
       "hugging_face_id": "Qwen/Qwen3-VL-8B-Instruct",
@@ -852,8 +760,8 @@
       "multimodal": true,
       "license": "",
       "pricing": {
-        "prompt": 1.17e-7,
-        "completion": 0.000001365
+        "prompt": 1.17e-07,
+        "completion": 1.365e-06
       },
       "office_grade": false,
       "hugging_face_id": "Qwen/Qwen3-VL-8B-Thinking",
@@ -875,8 +783,8 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 4e-8,
-        "completion": 5e-8
+        "prompt": 4e-08,
+        "completion": 5e-08
       },
       "office_grade": false,
       "hugging_face_id": "Sao10K/L3-8B-Lunaris-v1",
@@ -898,8 +806,8 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 8e-7,
-        "completion": 0.0000012
+        "prompt": 8e-07,
+        "completion": 1.2e-06
       },
       "office_grade": false,
       "hugging_face_id": "AlfredPros/CodeLlama-7b-Instruct-Solidity",
@@ -921,8 +829,8 @@
       "multimodal": true,
       "license": "",
       "pricing": {
-        "prompt": 1e-7,
-        "completion": 2e-7
+        "prompt": 1e-07,
+        "completion": 2e-07
       },
       "office_grade": false,
       "hugging_face_id": "ByteDance-Seed/UI-TARS-1.5-7B",
@@ -944,8 +852,8 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 3.75e-8,
-        "completion": 1.5e-7
+        "prompt": 3.75e-08,
+        "completion": 1.5e-07
       },
       "office_grade": false,
       "hugging_face_id": "",
@@ -967,8 +875,8 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 1.1e-7,
-        "completion": 1.9e-7
+        "prompt": 1.1e-07,
+        "completion": 1.9e-07
       },
       "office_grade": false,
       "hugging_face_id": "mistralai/Mistral-7B-Instruct-v0.1",
@@ -990,8 +898,8 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 4e-8,
-        "completion": 1e-7
+        "prompt": 4e-08,
+        "completion": 1e-07
       },
       "office_grade": false,
       "hugging_face_id": "Qwen/Qwen2.5-7B-Instruct",
@@ -1013,31 +921,8 @@
       "multimodal": true,
       "license": "",
       "pricing": {
-        "prompt": 4e-8,
-        "completion": 8e-8
-      },
-      "office_grade": false,
-      "hugging_face_id": "google/gemma-3-4b-it",
-      "description": "Gemma 3 introduces multimodality, supporting vision-language input and text outputs. It handles context windows up to 128k tokens, understands over 140 languages, and offers improved math, reasoning, and chat capabilities,..."
-    },
-    {
-      "id": "google/gemma-3-4b-it:free",
-      "name": "Google: Gemma 3 4B (free)",
-      "provider": "google",
-      "active_params_b": 4,
-      "total_params_b": 4,
-      "tier": "capable",
-      "tool_calling": false,
-      "tool_score": null,
-      "ifeval_score": null,
-      "context_length": 32768,
-      "quantized_ram_gb": 2.9,
-      "reasoning": false,
-      "multimodal": true,
-      "license": "",
-      "pricing": {
-        "prompt": 0,
-        "completion": 0
+        "prompt": 4e-08,
+        "completion": 8e-08
       },
       "office_grade": false,
       "hugging_face_id": "google/gemma-3-4b-it",
@@ -1059,35 +944,12 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 6e-8,
-        "completion": 1.2e-7
+        "prompt": 6e-08,
+        "completion": 1.2e-07
       },
       "office_grade": false,
       "hugging_face_id": "google/gemma-3n-E4B-it",
-      "description": "Gemma 3n E4B-it is optimized for efficient execution on mobile and low-resource devices, such as phones, laptops, and tablets. It supports multimodal inputs—including text, visual data, and audio—enabling diverse tasks..."
-    },
-    {
-      "id": "google/gemma-3n-e4b-it:free",
-      "name": "Google: Gemma 3n 4B (free)",
-      "provider": "google",
-      "active_params_b": 4,
-      "total_params_b": 4,
-      "tier": "capable",
-      "tool_calling": false,
-      "tool_score": null,
-      "ifeval_score": null,
-      "context_length": 8192,
-      "quantized_ram_gb": 2.9,
-      "reasoning": false,
-      "multimodal": false,
-      "license": "",
-      "pricing": {
-        "prompt": 0,
-        "completion": 0
-      },
-      "office_grade": false,
-      "hugging_face_id": "google/gemma-3n-E4B-it",
-      "description": "Gemma 3n E4B-it is optimized for efficient execution on mobile and low-resource devices, such as phones, laptops, and tablets. It supports multimodal inputs—including text, visual data, and audio—enabling diverse tasks..."
+      "description": "Gemma 3n E4B-it is optimized for efficient execution on mobile and low-resource devices, such as phones, laptops, and tablets. It supports multimodal inputs\u2014including text, visual data, and audio\u2014enabling diverse tasks..."
     },
     {
       "id": "google/gemma-4-26b-a4b-it",
@@ -1105,35 +967,12 @@
       "multimodal": true,
       "license": "",
       "pricing": {
-        "prompt": 7e-8,
-        "completion": 3.4e-7
+        "prompt": 7e-08,
+        "completion": 3.4e-07
       },
       "office_grade": false,
       "hugging_face_id": "google/gemma-4-26B-A4B-it",
-      "description": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind. Despite 25.2B total parameters, only 3.8B activate per token during inference — delivering near-31B quality at..."
-    },
-    {
-      "id": "google/gemma-4-26b-a4b-it:free",
-      "name": "Google: Gemma 4 26B A4B  (free)",
-      "provider": "google",
-      "active_params_b": 4,
-      "total_params_b": 4,
-      "tier": "capable",
-      "tool_calling": true,
-      "tool_score": null,
-      "ifeval_score": null,
-      "context_length": 262144,
-      "quantized_ram_gb": 2.9,
-      "reasoning": false,
-      "multimodal": true,
-      "license": "",
-      "pricing": {
-        "prompt": 0,
-        "completion": 0
-      },
-      "office_grade": false,
-      "hugging_face_id": "google/gemma-4-26B-A4B-it",
-      "description": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind. Despite 25.2B total parameters, only 3.8B activate per token during inference — delivering near-31B quality at..."
+      "description": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind. Despite 25.2B total parameters, only 3.8B activate per token during inference \u2014 delivering near-31B quality at..."
     },
     {
       "id": "baidu/ernie-4.5-21b-a3b",
@@ -1151,8 +990,8 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 7e-8,
-        "completion": 2.8e-7
+        "prompt": 7e-08,
+        "completion": 2.8e-07
       },
       "office_grade": false,
       "hugging_face_id": "baidu/ERNIE-4.5-21B-A3B-PT",
@@ -1174,8 +1013,8 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 7e-8,
-        "completion": 2.8e-7
+        "prompt": 7e-08,
+        "completion": 2.8e-07
       },
       "office_grade": false,
       "hugging_face_id": "baidu/ERNIE-4.5-21B-A3B-Thinking",
@@ -1197,8 +1036,8 @@
       "multimodal": true,
       "license": "",
       "pricing": {
-        "prompt": 1.4e-7,
-        "completion": 5.6e-7
+        "prompt": 1.4e-07,
+        "completion": 5.6e-07
       },
       "office_grade": false,
       "hugging_face_id": "baidu/ERNIE-4.5-VL-28B-A3B-PT",
@@ -1220,31 +1059,8 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 5.1e-8,
-        "completion": 3.4e-7
-      },
-      "office_grade": false,
-      "hugging_face_id": "meta-llama/Llama-3.2-3B-Instruct",
-      "description": "Llama 3.2 3B is a 3-billion-parameter multilingual large language model, optimized for advanced natural language processing tasks like dialogue generation, reasoning, and summarization. Designed with the latest transformer architecture, it..."
-    },
-    {
-      "id": "meta-llama/llama-3.2-3b-instruct:free",
-      "name": "Meta: Llama 3.2 3B Instruct (free)",
-      "provider": "meta-llama",
-      "active_params_b": 3,
-      "total_params_b": 3,
-      "tier": "basic",
-      "tool_calling": false,
-      "tool_score": null,
-      "ifeval_score": null,
-      "context_length": 131072,
-      "quantized_ram_gb": 2.3,
-      "reasoning": false,
-      "multimodal": false,
-      "license": "",
-      "pricing": {
-        "prompt": 0,
-        "completion": 0
+        "prompt": 5.1e-08,
+        "completion": 3.4e-07
       },
       "office_grade": false,
       "hugging_face_id": "meta-llama/Llama-3.2-3B-Instruct",
@@ -1266,8 +1082,8 @@
       "multimodal": true,
       "license": "",
       "pricing": {
-        "prompt": 1e-7,
-        "completion": 1e-7
+        "prompt": 1e-07,
+        "completion": 1e-07
       },
       "office_grade": false,
       "hugging_face_id": "mistralai/Ministral-3-3B-Instruct-2512",
@@ -1289,31 +1105,8 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 5e-8,
-        "completion": 2e-7
-      },
-      "office_grade": false,
-      "hugging_face_id": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16",
-      "description": "NVIDIA Nemotron 3 Nano 30B A3B is a small language MoE model with highest compute efficiency and accuracy for developers to build specialized agentic AI systems. The model is fully..."
-    },
-    {
-      "id": "nvidia/nemotron-3-nano-30b-a3b:free",
-      "name": "NVIDIA: Nemotron 3 Nano 30B A3B (free)",
-      "provider": "nvidia",
-      "active_params_b": 3,
-      "total_params_b": 3,
-      "tier": "basic",
-      "tool_calling": true,
-      "tool_score": null,
-      "ifeval_score": null,
-      "context_length": 256000,
-      "quantized_ram_gb": 2.3,
-      "reasoning": false,
-      "multimodal": false,
-      "license": "",
-      "pricing": {
-        "prompt": 0,
-        "completion": 0
+        "prompt": 5e-08,
+        "completion": 2e-07
       },
       "office_grade": false,
       "hugging_face_id": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16",
@@ -1335,8 +1128,8 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 8e-8,
-        "completion": 2.8e-7
+        "prompt": 8e-08,
+        "completion": 2.8e-07
       },
       "office_grade": false,
       "hugging_face_id": "Qwen/Qwen3-30B-A3B",
@@ -1358,8 +1151,8 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 9e-8,
-        "completion": 3e-7
+        "prompt": 9e-08,
+        "completion": 3e-07
       },
       "office_grade": false,
       "hugging_face_id": "Qwen/Qwen3-30B-A3B-Instruct-2507",
@@ -1381,12 +1174,12 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 8e-8,
-        "completion": 4e-7
+        "prompt": 8e-08,
+        "completion": 4e-07
       },
       "office_grade": false,
       "hugging_face_id": "Qwen/Qwen3-30B-A3B-Thinking-2507",
-      "description": "Qwen3-30B-A3B-Thinking-2507 is a 30B parameter Mixture-of-Experts reasoning model optimized for complex tasks requiring extended multi-step thinking. The model is designed specifically for “thinking mode,” where internal reasoning traces are separated..."
+      "description": "Qwen3-30B-A3B-Thinking-2507 is a 30B parameter Mixture-of-Experts reasoning model optimized for complex tasks requiring extended multi-step thinking. The model is designed specifically for \u201cthinking mode,\u201d where internal reasoning traces are separated..."
     },
     {
       "id": "qwen/qwen3-coder-30b-a3b-instruct",
@@ -1404,8 +1197,8 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 7e-8,
-        "completion": 2.7e-7
+        "prompt": 7e-08,
+        "completion": 2.7e-07
       },
       "office_grade": false,
       "hugging_face_id": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
@@ -1427,35 +1220,12 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 9e-8,
-        "completion": 0.0000011
+        "prompt": 9e-08,
+        "completion": 1.1e-06
       },
       "office_grade": false,
       "hugging_face_id": "Qwen/Qwen3-Next-80B-A3B-Instruct",
-      "description": "Qwen3-Next-80B-A3B-Instruct is an instruction-tuned chat model in the Qwen3-Next series optimized for fast, stable responses without “thinking” traces. It targets complex tasks across reasoning, code generation, knowledge QA, and multilingual..."
-    },
-    {
-      "id": "qwen/qwen3-next-80b-a3b-instruct:free",
-      "name": "Qwen: Qwen3 Next 80B A3B Instruct (free)",
-      "provider": "qwen",
-      "active_params_b": 3,
-      "total_params_b": 3,
-      "tier": "basic",
-      "tool_calling": true,
-      "tool_score": null,
-      "ifeval_score": null,
-      "context_length": 262144,
-      "quantized_ram_gb": 2.3,
-      "reasoning": false,
-      "multimodal": false,
-      "license": "",
-      "pricing": {
-        "prompt": 0,
-        "completion": 0
-      },
-      "office_grade": false,
-      "hugging_face_id": "Qwen/Qwen3-Next-80B-A3B-Instruct",
-      "description": "Qwen3-Next-80B-A3B-Instruct is an instruction-tuned chat model in the Qwen3-Next series optimized for fast, stable responses without “thinking” traces. It targets complex tasks across reasoning, code generation, knowledge QA, and multilingual..."
+      "description": "Qwen3-Next-80B-A3B-Instruct is an instruction-tuned chat model in the Qwen3-Next series optimized for fast, stable responses without \u201cthinking\u201d traces. It targets complex tasks across reasoning, code generation, knowledge QA, and multilingual..."
     },
     {
       "id": "qwen/qwen3-next-80b-a3b-thinking",
@@ -1473,12 +1243,12 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 9.75e-8,
-        "completion": 7.8e-7
+        "prompt": 9.75e-08,
+        "completion": 7.8e-07
       },
       "office_grade": false,
       "hugging_face_id": "Qwen/Qwen3-Next-80B-A3B-Thinking",
-      "description": "Qwen3-Next-80B-A3B-Thinking is a reasoning-first chat model in the Qwen3-Next line that outputs structured “thinking” traces by default. It’s designed for hard multi-step problems; math proofs, code synthesis/debugging, logic, and agentic..."
+      "description": "Qwen3-Next-80B-A3B-Thinking is a reasoning-first chat model in the Qwen3-Next line that outputs structured \u201cthinking\u201d traces by default. It\u2019s designed for hard multi-step problems; math proofs, code synthesis/debugging, logic, and agentic..."
     },
     {
       "id": "qwen/qwen3-vl-30b-a3b-instruct",
@@ -1496,8 +1266,8 @@
       "multimodal": true,
       "license": "",
       "pricing": {
-        "prompt": 1.3e-7,
-        "completion": 5.2e-7
+        "prompt": 1.3e-07,
+        "completion": 5.2e-07
       },
       "office_grade": false,
       "hugging_face_id": "Qwen/Qwen3-VL-30B-A3B-Instruct",
@@ -1519,8 +1289,8 @@
       "multimodal": true,
       "license": "",
       "pricing": {
-        "prompt": 1.3e-7,
-        "completion": 0.00000156
+        "prompt": 1.3e-07,
+        "completion": 1.56e-06
       },
       "office_grade": false,
       "hugging_face_id": "Qwen/Qwen3-VL-30B-A3B-Thinking",
@@ -1542,8 +1312,8 @@
       "multimodal": true,
       "license": "",
       "pricing": {
-        "prompt": 1.625e-7,
-        "completion": 0.0000013
+        "prompt": 1.625e-07,
+        "completion": 1.3e-06
       },
       "office_grade": false,
       "hugging_face_id": "Qwen/Qwen3.5-35B-A3B",
@@ -1565,8 +1335,8 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 9e-8,
-        "completion": 4.5e-7
+        "prompt": 9e-08,
+        "completion": 4.5e-07
       },
       "office_grade": false,
       "hugging_face_id": "Alibaba-NLP/Tongyi-DeepResearch-30B-A3B",
@@ -1611,8 +1381,8 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 3e-8,
-        "completion": 1.2e-7
+        "prompt": 3e-08,
+        "completion": 1.2e-07
       },
       "office_grade": false,
       "hugging_face_id": "LiquidAI/LFM2-24B-A2B",
@@ -1662,7 +1432,7 @@
       },
       "office_grade": false,
       "hugging_face_id": "LiquidAI/LFM2.5-1.2B-Thinking",
-      "description": "LFM2.5-1.2B-Thinking is a lightweight reasoning-focused model optimized for agentic tasks, data extraction, and RAG—while still running comfortably on edge devices. It supports long context (up to 32K tokens) and is..."
+      "description": "LFM2.5-1.2B-Thinking is a lightweight reasoning-focused model optimized for agentic tasks, data extraction, and RAG\u2014while still running comfortably on edge devices. It supports long context (up to 32K tokens) and is..."
     },
     {
       "id": "meta-llama/llama-3.2-1b-instruct",
@@ -1680,8 +1450,8 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 2.7e-8,
-        "completion": 2e-7
+        "prompt": 2.7e-08,
+        "completion": 2e-07
       },
       "office_grade": false,
       "hugging_face_id": "meta-llama/Llama-3.2-1B-Instruct",
