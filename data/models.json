@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "scraped_at": "2026-05-04T07:02:45.346Z",
+    "scraped_at": "2026-05-05T06:46:38.949Z",
     "version": "1.0",
     "scraper_version": "0.1.0",
-    "total_models": 371,
-    "filtered_count": 75,
+    "total_models": 372,
+    "filtered_count": 76,
     "max_params_filter": 15
   },
   "models": [
@@ -260,6 +260,29 @@
       "office_grade": false,
       "hugging_face_id": "",
       "description": "Mistral Medium 3.1 is an updated version of Mistral Medium 3, which is a high-performance enterprise-grade language model designed to deliver frontier-level capabilities at significantly reduced operational cost. It balances..."
+    },
+    {
+      "id": "mistralai/mistral-medium-3-5",
+      "name": "Mistral: Mistral Medium 3.5",
+      "provider": "mistralai",
+      "active_params_b": 12,
+      "total_params_b": 36,
+      "tier": "strong",
+      "tool_calling": true,
+      "tool_score": null,
+      "ifeval_score": null,
+      "context_length": 262144,
+      "quantized_ram_gb": 7.7,
+      "reasoning": false,
+      "multimodal": true,
+      "license": "",
+      "pricing": {
+        "prompt": 0.0000015,
+        "completion": 0.0000075
+      },
+      "office_grade": false,
+      "hugging_face_id": null,
+      "description": "Mistral Medium 3.5 is a dense 128B instruction-following model from Mistral AI. It supports text and image inputs with text output, and is designed for agentic workflows, coding, and complex..."
     },
     {
       "id": "nvidia/nemotron-3-super-120b-a12b",
@@ -1579,7 +1602,7 @@
       "active_params_b": 3,
       "total_params_b": 3,
       "tier": "basic",
-      "tool_calling": false,
+      "tool_calling": true,
       "tool_score": null,
       "ifeval_score": null,
       "context_length": 262144,
