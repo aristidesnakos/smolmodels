@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "scraped_at": "2026-05-05T06:46:38.949Z",
+    "scraped_at": "2026-05-06T06:55:47.376Z",
     "version": "1.0",
     "scraper_version": "0.1.0",
-    "total_models": 372,
-    "filtered_count": 76,
+    "total_models": 370,
+    "filtered_count": 72,
     "max_params_filter": 15
   },
   "models": [
@@ -164,29 +164,6 @@
       "pricing": {
         "prompt": 4e-8,
         "completion": 1.3e-7
-      },
-      "office_grade": false,
-      "hugging_face_id": "google/gemma-3-12b-it",
-      "description": "Gemma 3 introduces multimodality, supporting vision-language input and text outputs. It handles context windows up to 128k tokens, understands over 140 languages, and offers improved math, reasoning, and chat capabilities,..."
-    },
-    {
-      "id": "google/gemma-3-12b-it:free",
-      "name": "Google: Gemma 3 12B (free)",
-      "provider": "google",
-      "active_params_b": 12,
-      "total_params_b": 12,
-      "tier": "strong",
-      "tool_calling": false,
-      "tool_score": null,
-      "ifeval_score": null,
-      "context_length": 32768,
-      "quantized_ram_gb": 7.7,
-      "reasoning": false,
-      "multimodal": true,
-      "license": "",
-      "pricing": {
-        "prompt": 0,
-        "completion": 0
       },
       "office_grade": false,
       "hugging_face_id": "google/gemma-3-12b-it",
@@ -1044,29 +1021,6 @@
       "description": "Gemma 3 introduces multimodality, supporting vision-language input and text outputs. It handles context windows up to 128k tokens, understands over 140 languages, and offers improved math, reasoning, and chat capabilities,..."
     },
     {
-      "id": "google/gemma-3-4b-it:free",
-      "name": "Google: Gemma 3 4B (free)",
-      "provider": "google",
-      "active_params_b": 4,
-      "total_params_b": 4,
-      "tier": "capable",
-      "tool_calling": false,
-      "tool_score": null,
-      "ifeval_score": null,
-      "context_length": 32768,
-      "quantized_ram_gb": 2.9,
-      "reasoning": false,
-      "multimodal": true,
-      "license": "",
-      "pricing": {
-        "prompt": 0,
-        "completion": 0
-      },
-      "office_grade": false,
-      "hugging_face_id": "google/gemma-3-4b-it",
-      "description": "Gemma 3 introduces multimodality, supporting vision-language input and text outputs. It handles context windows up to 128k tokens, understands over 140 languages, and offers improved math, reasoning, and chat capabilities,..."
-    },
-    {
       "id": "google/gemma-3n-e4b-it",
       "name": "Google: Gemma 3n 4B",
       "provider": "google",
@@ -1084,29 +1038,6 @@
       "pricing": {
         "prompt": 6e-8,
         "completion": 1.2e-7
-      },
-      "office_grade": false,
-      "hugging_face_id": "google/gemma-3n-E4B-it",
-      "description": "Gemma 3n E4B-it is optimized for efficient execution on mobile and low-resource devices, such as phones, laptops, and tablets. It supports multimodal inputs—including text, visual data, and audio—enabling diverse tasks..."
-    },
-    {
-      "id": "google/gemma-3n-e4b-it:free",
-      "name": "Google: Gemma 3n 4B (free)",
-      "provider": "google",
-      "active_params_b": 4,
-      "total_params_b": 4,
-      "tier": "capable",
-      "tool_calling": false,
-      "tool_score": null,
-      "ifeval_score": null,
-      "context_length": 8192,
-      "quantized_ram_gb": 2.9,
-      "reasoning": false,
-      "multimodal": false,
-      "license": "",
-      "pricing": {
-        "prompt": 0,
-        "completion": 0
       },
       "office_grade": false,
       "hugging_face_id": "google/gemma-3n-E4B-it",
@@ -1640,29 +1571,6 @@
       "office_grade": false,
       "hugging_face_id": "Alibaba-NLP/Tongyi-DeepResearch-30B-A3B",
       "description": "Tongyi DeepResearch is an agentic large language model developed by Tongyi Lab, with 30 billion total parameters activating only 3 billion per token. It's optimized for long-horizon, deep information-seeking tasks..."
-    },
-    {
-      "id": "google/gemma-3n-e2b-it:free",
-      "name": "Google: Gemma 3n 2B (free)",
-      "provider": "google",
-      "active_params_b": 2,
-      "total_params_b": 2,
-      "tier": "basic",
-      "tool_calling": false,
-      "tool_score": null,
-      "ifeval_score": null,
-      "context_length": 8192,
-      "quantized_ram_gb": 1.7,
-      "reasoning": false,
-      "multimodal": false,
-      "license": "",
-      "pricing": {
-        "prompt": 0,
-        "completion": 0
-      },
-      "office_grade": false,
-      "hugging_face_id": "google/gemma-3n-E2B-it",
-      "description": "Gemma 3n E2B IT is a multimodal, instruction-tuned model developed by Google DeepMind, designed to operate efficiently at an effective parameter size of 2B while leveraging a 6B architecture. Based..."
     },
     {
       "id": "liquid/lfm-2-24b-a2b",
