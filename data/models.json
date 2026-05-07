@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "scraped_at": "2026-05-06T06:55:47.376Z",
+    "scraped_at": "2026-05-07T07:00:22.032Z",
     "version": "1.0",
     "scraper_version": "0.1.0",
-    "total_models": 370,
-    "filtered_count": 72,
+    "total_models": 368,
+    "filtered_count": 71,
     "max_params_filter": 15
   },
   "models": [
@@ -308,29 +308,6 @@
       "description": "NVIDIA Nemotron 3 Super is a 120B-parameter open hybrid MoE model, activating just 12B parameters for maximum compute efficiency and accuracy in complex multi-agent applications. Built on a hybrid Mamba-Transformer..."
     },
     {
-      "id": "nvidia/nemotron-nano-12b-v2-vl",
-      "name": "NVIDIA: Nemotron Nano 12B 2 VL",
-      "provider": "nvidia",
-      "active_params_b": 12,
-      "total_params_b": 12,
-      "tier": "strong",
-      "tool_calling": false,
-      "tool_score": null,
-      "ifeval_score": null,
-      "context_length": 131072,
-      "quantized_ram_gb": 7.7,
-      "reasoning": false,
-      "multimodal": true,
-      "license": "",
-      "pricing": {
-        "prompt": 2e-7,
-        "completion": 6e-7
-      },
-      "office_grade": false,
-      "hugging_face_id": "nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL-BF16",
-      "description": "NVIDIA Nemotron Nano 2 VL is a 12-billion-parameter open multimodal reasoning model designed for video understanding and document intelligence. It introduces a hybrid Transformer-Mamba architecture, combining transformer-level accuracy with Mamba’s..."
-    },
-    {
       "id": "nvidia/nemotron-nano-12b-v2-vl:free",
       "name": "NVIDIA: Nemotron Nano 12B 2 VL (free)",
       "provider": "nvidia",
@@ -613,7 +590,7 @@
       "active_params_b": 8,
       "total_params_b": 8,
       "tier": "strong",
-      "tool_calling": true,
+      "tool_calling": false,
       "tool_score": null,
       "ifeval_score": null,
       "context_length": 8192,
@@ -622,7 +599,7 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 3e-8,
+        "prompt": 4e-8,
         "completion": 4e-8
       },
       "office_grade": false,
