@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "scraped_at": "2026-05-16T06:47:53.160Z",
+    "scraped_at": "2026-05-17T06:58:22.198Z",
     "version": "1.0",
     "scraper_version": "0.1.0",
     "total_models": 356,
@@ -254,8 +254,8 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 9e-8,
-        "completion": 4.5e-7
+        "prompt": 1e-7,
+        "completion": 5e-7
       },
       "office_grade": false,
       "hugging_face_id": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8",
@@ -1013,8 +1013,8 @@
       "multimodal": true,
       "license": "",
       "pricing": {
-        "prompt": 6e-8,
-        "completion": 3.3e-7
+        "prompt": 7e-8,
+        "completion": 3.4e-7
       },
       "office_grade": false,
       "hugging_face_id": "google/gemma-4-26B-A4B-it",
