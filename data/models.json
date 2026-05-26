@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "scraped_at": "2026-05-25T07:34:35.079Z",
+    "scraped_at": "2026-05-26T07:12:53.277Z",
     "version": "1.0",
     "scraper_version": "0.1.0",
-    "total_models": 358,
-    "filtered_count": 70,
+    "total_models": 357,
+    "filtered_count": 69,
     "max_params_filter": 15
   },
   "models": [
@@ -1502,29 +1502,6 @@
       "office_grade": false,
       "hugging_face_id": "Qwen/Qwen3.6-35B-A3B",
       "description": "Qwen3.6-35B-A3B is an open-weight multimodal model from Alibaba Cloud with 35 billion total parameters and 3 billion active parameters per token. It uses a hybrid sparse mixture-of-experts architecture combining Gated..."
-    },
-    {
-      "id": "alibaba/tongyi-deepresearch-30b-a3b",
-      "name": "Tongyi DeepResearch 30B A3B",
-      "provider": "alibaba",
-      "active_params_b": 3,
-      "total_params_b": 3,
-      "tier": "basic",
-      "tool_calling": true,
-      "tool_score": null,
-      "ifeval_score": null,
-      "context_length": 131072,
-      "quantized_ram_gb": 2.3,
-      "reasoning": false,
-      "multimodal": false,
-      "license": "",
-      "pricing": {
-        "prompt": 9e-8,
-        "completion": 4.5e-7
-      },
-      "office_grade": false,
-      "hugging_face_id": "Alibaba-NLP/Tongyi-DeepResearch-30B-A3B",
-      "description": "Tongyi DeepResearch is an agentic large language model developed by Tongyi Lab, with 30 billion total parameters activating only 3 billion per token. It's optimized for long-horizon, deep information-seeking tasks..."
     },
     {
       "id": "liquid/lfm-2-24b-a2b",
