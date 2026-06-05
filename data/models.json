@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-06-04T07:38:32.335Z",
+    "scraped_at": "2026-06-05T07:30:02.266Z",
     "version": "1.0",
     "scraper_version": "0.1.0",
-    "total_models": 343,
+    "total_models": 346,
     "filtered_count": 65,
     "max_params_filter": 15
   },
@@ -600,7 +600,7 @@
       "license": "",
       "pricing": {
         "prompt": 2e-8,
-        "completion": 5e-8
+        "completion": 3e-8
       },
       "office_grade": false,
       "hugging_face_id": "meta-llama/Meta-Llama-3.1-8B-Instruct",
