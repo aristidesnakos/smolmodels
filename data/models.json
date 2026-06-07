@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "scraped_at": "2026-06-06T07:05:03.824Z",
+    "scraped_at": "2026-06-07T07:24:26.336Z",
     "version": "1.0",
     "scraper_version": "0.1.0",
-    "total_models": 344,
-    "filtered_count": 64,
+    "total_models": 341,
+    "filtered_count": 63,
     "max_params_filter": 15
   },
   "models": [
@@ -576,8 +576,8 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 4e-8,
-        "completion": 4e-8
+        "prompt": 1.4e-7,
+        "completion": 1.4e-7
       },
       "office_grade": false,
       "hugging_face_id": "meta-llama/Meta-Llama-3-8B-Instruct",
@@ -973,29 +973,6 @@
       "office_grade": false,
       "hugging_face_id": "google/gemma-4-26B-A4B-it",
       "description": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind. Despite 25.2B total parameters, only 3.8B activate per token during inference — delivering near-31B quality at..."
-    },
-    {
-      "id": "baidu/ernie-4.5-vl-28b-a3b",
-      "name": "Baidu: ERNIE 4.5 VL 28B A3B",
-      "provider": "baidu",
-      "active_params_b": 3,
-      "total_params_b": 3,
-      "tier": "basic",
-      "tool_calling": true,
-      "tool_score": null,
-      "ifeval_score": null,
-      "context_length": 131072,
-      "quantized_ram_gb": 2.3,
-      "reasoning": false,
-      "multimodal": true,
-      "license": "",
-      "pricing": {
-        "prompt": 1.4e-7,
-        "completion": 5.6e-7
-      },
-      "office_grade": false,
-      "hugging_face_id": "baidu/ERNIE-4.5-VL-28B-A3B-PT",
-      "description": "A powerful multimodal Mixture-of-Experts chat model featuring 28B total parameters with 3B activated per token, delivering exceptional text and vision understanding through its innovative heterogeneous MoE structure with modality-isolated routing...."
     },
     {
       "id": "meta-llama/llama-3.2-3b-instruct",
