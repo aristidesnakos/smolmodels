@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "scraped_at": "2026-06-07T07:24:26.336Z",
+    "scraped_at": "2026-06-08T07:42:30.316Z",
     "version": "1.0",
     "scraper_version": "0.1.0",
     "total_models": 341,
@@ -139,8 +139,8 @@
       "multimodal": true,
       "license": "",
       "pricing": {
-        "prompt": 4e-8,
-        "completion": 1.3e-7
+        "prompt": 5e-8,
+        "completion": 1.5e-7
       },
       "office_grade": false,
       "hugging_face_id": "google/gemma-3-12b-it",
@@ -369,8 +369,8 @@
       "multimodal": true,
       "license": "",
       "pricing": {
-        "prompt": 2.45e-7,
-        "completion": 2.45e-7
+        "prompt": 3.45e-7,
+        "completion": 3.45e-7
       },
       "office_grade": false,
       "hugging_face_id": "meta-llama/Llama-3.2-11B-Vision-Instruct",
@@ -484,7 +484,7 @@
       "multimodal": true,
       "license": "",
       "pricing": {
-        "prompt": 4e-8,
+        "prompt": 1e-7,
         "completion": 1.5e-7
       },
       "office_grade": false,
@@ -898,8 +898,8 @@
       "multimodal": true,
       "license": "",
       "pricing": {
-        "prompt": 4e-8,
-        "completion": 8e-8
+        "prompt": 5e-8,
+        "completion": 1e-7
       },
       "office_grade": false,
       "hugging_face_id": "google/gemma-3-4b-it",
@@ -1128,8 +1128,8 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 9e-8,
-        "completion": 4.5e-7
+        "prompt": 1.2e-7,
+        "completion": 5e-7
       },
       "office_grade": false,
       "hugging_face_id": "Qwen/Qwen3-30B-A3B",
