@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-06-10T07:29:18.295Z",
+    "scraped_at": "2026-06-11T07:41:11.618Z",
     "version": "1.0",
     "scraper_version": "0.1.0",
-    "total_models": 339,
+    "total_models": 338,
     "filtered_count": 63,
     "max_params_filter": 15
   },
@@ -1358,7 +1358,7 @@
       "multimodal": true,
       "license": "",
       "pricing": {
-        "prompt": 1.4e-7,
+        "prompt": 1.5e-7,
         "completion": 0.000001
       },
       "office_grade": false,
