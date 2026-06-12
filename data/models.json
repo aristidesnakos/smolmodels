@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "scraped_at": "2026-06-11T07:41:11.618Z",
+    "scraped_at": "2026-06-12T07:37:52.676Z",
     "version": "1.0",
     "scraper_version": "0.1.0",
-    "total_models": 338,
-    "filtered_count": 63,
+    "total_models": 337,
+    "filtered_count": 62,
     "max_params_filter": 15
   },
   "models": [
@@ -421,29 +421,6 @@
       "office_grade": false,
       "hugging_face_id": "Qwen/Qwen3.5-122B-A10B",
       "description": "The Qwen3.5 122B-A10B native vision-language model is built on a hybrid architecture that integrates a linear attention mechanism with a sparse mixture-of-experts model, achieving higher inference efficiency. In terms of..."
-    },
-    {
-      "id": "nvidia/nemotron-nano-9b-v2",
-      "name": "NVIDIA: Nemotron Nano 9B V2",
-      "provider": "nvidia",
-      "active_params_b": 9,
-      "total_params_b": 9,
-      "tier": "strong",
-      "tool_calling": true,
-      "tool_score": null,
-      "ifeval_score": null,
-      "context_length": 131072,
-      "quantized_ram_gb": 5.9,
-      "reasoning": false,
-      "multimodal": false,
-      "license": "",
-      "pricing": {
-        "prompt": 4e-8,
-        "completion": 1.6e-7
-      },
-      "office_grade": false,
-      "hugging_face_id": "nvidia/NVIDIA-Nemotron-Nano-9B-v2",
-      "description": "NVIDIA-Nemotron-Nano-9B-v2 is a large language model (LLM) trained from scratch by NVIDIA, and designed as a unified model for both reasoning and non-reasoning tasks. It responds to user queries and..."
     },
     {
       "id": "nvidia/nemotron-nano-9b-v2:free",
