@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "scraped_at": "2026-06-12T07:37:52.676Z",
+    "scraped_at": "2026-06-13T12:08:48.217Z",
     "version": "1.0",
     "scraper_version": "0.1.0",
     "total_models": 337,
-    "filtered_count": 62,
+    "filtered_count": 61,
     "max_params_filter": 15
   },
   "models": [
@@ -513,29 +513,6 @@
       "office_grade": false,
       "hugging_face_id": "ibm-granite/granite-4.1-8b",
       "description": "Granite 4.1 8B is a dense, decoder-only 8-billion-parameter language model from IBM, part of the Granite 4.1 family. It supports a 131K-token context window and is designed for enterprise tasks..."
-    },
-    {
-      "id": "meta-llama/llama-guard-3-8b",
-      "name": "Llama Guard 3 8B",
-      "provider": "meta-llama",
-      "active_params_b": 8,
-      "total_params_b": 8,
-      "tier": "strong",
-      "tool_calling": false,
-      "tool_score": null,
-      "ifeval_score": null,
-      "context_length": 131072,
-      "quantized_ram_gb": 5.3,
-      "reasoning": false,
-      "multimodal": false,
-      "license": "",
-      "pricing": {
-        "prompt": 4.84e-7,
-        "completion": 3e-8
-      },
-      "office_grade": false,
-      "hugging_face_id": "meta-llama/Llama-Guard-3-8B",
-      "description": "Llama Guard 3 is a Llama-3.1-8B pretrained model, fine-tuned for content safety classification. Similar to previous versions, it can be used to classify content in both LLM inputs (prompt classification)..."
     },
     {
       "id": "meta-llama/llama-3-8b-instruct",
