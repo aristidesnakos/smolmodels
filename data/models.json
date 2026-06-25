@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "scraped_at": "2026-06-24T13:54:43.164Z",
+    "scraped_at": "2026-06-25T13:37:44.355Z",
     "version": "1.0",
     "scraper_version": "0.1.0",
     "total_models": 339,
@@ -1105,8 +1105,8 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 4.815e-8,
-        "completion": 1.9305e-7
+        "prompt": 0,
+        "completion": 0
       },
       "office_grade": false,
       "hugging_face_id": "Qwen/Qwen3-30B-A3B-Instruct-2507",
