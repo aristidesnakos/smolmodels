@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "scraped_at": "2026-07-01T13:56:54.214Z",
+    "scraped_at": "2026-07-02T12:32:05.916Z",
     "version": "1.0",
     "scraper_version": "0.1.0",
     "total_models": 338,
@@ -714,8 +714,8 @@
       "multimodal": true,
       "license": "",
       "pricing": {
-        "prompt": 8e-8,
-        "completion": 5e-7
+        "prompt": 1.17e-7,
+        "completion": 4.55e-7
       },
       "office_grade": false,
       "hugging_face_id": "Qwen/Qwen3-VL-8B-Instruct",
