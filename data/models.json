@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-07-07T13:54:50.319Z",
+    "scraped_at": "2026-07-08T11:59:02.812Z",
     "version": "1.0",
     "scraper_version": "0.1.0",
-    "total_models": 341,
+    "total_models": 343,
     "filtered_count": 61,
     "max_params_filter": 15
   },
@@ -317,7 +317,7 @@
       "tool_calling": false,
       "tool_score": null,
       "ifeval_score": null,
-      "context_length": 32768,
+      "context_length": 65536,
       "quantized_ram_gb": 7.7,
       "reasoning": false,
       "multimodal": false,
