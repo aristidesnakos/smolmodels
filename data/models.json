@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "scraped_at": "2026-07-08T11:59:02.812Z",
+    "scraped_at": "2026-07-09T16:12:29.720Z",
     "version": "1.0",
     "scraper_version": "0.1.0",
-    "total_models": 343,
-    "filtered_count": 61,
+    "total_models": 340,
+    "filtered_count": 60,
     "max_params_filter": 15
   },
   "models": [
@@ -1318,29 +1318,6 @@
       "office_grade": false,
       "hugging_face_id": "Qwen/Qwen3.6-35B-A3B",
       "description": "Qwen3.6-35B-A3B is an open-weight multimodal model from Alibaba Cloud with 35 billion total parameters and 3 billion active parameters per token. It uses a hybrid sparse mixture-of-experts architecture combining Gated..."
-    },
-    {
-      "id": "liquid/lfm-2-24b-a2b",
-      "name": "LiquidAI: LFM2-24B-A2B",
-      "provider": "liquid",
-      "active_params_b": 2,
-      "total_params_b": 2,
-      "tier": "basic",
-      "tool_calling": false,
-      "tool_score": null,
-      "ifeval_score": null,
-      "context_length": 128000,
-      "quantized_ram_gb": 1.7,
-      "reasoning": false,
-      "multimodal": false,
-      "license": "",
-      "pricing": {
-        "prompt": 3e-8,
-        "completion": 1.2e-7
-      },
-      "office_grade": false,
-      "hugging_face_id": "LiquidAI/LFM2-24B-A2B",
-      "description": "LFM2-24B-A2B is the largest model in the LFM2 family of hybrid architectures designed for efficient on-device deployment. Built as a 24B parameter Mixture-of-Experts model with only 2B active parameters per..."
     },
     {
       "id": "liquid/lfm-2.5-1.2b-instruct:free",
