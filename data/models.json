@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "scraped_at": "2026-07-10T13:27:04.056Z",
+    "scraped_at": "2026-07-11T10:36:45.620Z",
     "version": "1.0",
     "scraper_version": "0.1.0",
-    "total_models": 347,
-    "filtered_count": 60,
+    "total_models": 345,
+    "filtered_count": 59,
     "max_params_filter": 15
   },
   "models": [
@@ -513,29 +513,6 @@
       "office_grade": false,
       "hugging_face_id": "ibm-granite/granite-4.1-8b",
       "description": "Granite 4.1 8B is a dense, decoder-only 8-billion-parameter language model from IBM, part of the Granite 4.1 family. It supports a 131K-token context window and is designed for enterprise tasks..."
-    },
-    {
-      "id": "meta-llama/llama-3-8b-instruct",
-      "name": "Meta: Llama 3 8B Instruct",
-      "provider": "meta-llama",
-      "active_params_b": 8,
-      "total_params_b": 8,
-      "tier": "strong",
-      "tool_calling": false,
-      "tool_score": null,
-      "ifeval_score": null,
-      "context_length": 8192,
-      "quantized_ram_gb": 5.3,
-      "reasoning": false,
-      "multimodal": false,
-      "license": "",
-      "pricing": {
-        "prompt": 1.4e-7,
-        "completion": 1.4e-7
-      },
-      "office_grade": false,
-      "hugging_face_id": "meta-llama/Meta-Llama-3-8B-Instruct",
-      "description": "Meta's latest class of model (Llama 3) launched with a variety of sizes & flavors. This 8B instruct-tuned version was optimized for high quality dialogue usecases. It has demonstrated strong..."
     },
     {
       "id": "meta-llama/llama-3.1-8b-instruct",
