@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "scraped_at": "2026-07-29T13:07:10.006Z",
+    "scraped_at": "2026-07-30T12:12:52.511Z",
     "version": "1.0",
     "scraper_version": "0.1.0",
     "total_models": 367,
@@ -783,8 +783,8 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 4e-8,
-        "completion": 1e-7
+        "prompt": 1e-7,
+        "completion": 2e-7
       },
       "office_grade": false,
       "hugging_face_id": "Qwen/Qwen2.5-7B-Instruct",
