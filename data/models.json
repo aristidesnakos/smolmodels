@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-07-30T12:12:52.511Z",
+    "scraped_at": "2026-07-31T12:31:16.698Z",
     "version": "1.0",
     "scraper_version": "0.1.0",
-    "total_models": 367,
+    "total_models": 364,
     "filtered_count": 54,
     "max_params_filter": 15
   },
@@ -340,7 +340,7 @@
       "tool_calling": true,
       "tool_score": null,
       "ifeval_score": null,
-      "context_length": 32768,
+      "context_length": 1024000,
       "quantized_ram_gb": 7.7,
       "reasoning": false,
       "multimodal": false,
@@ -599,8 +599,8 @@
       "multimodal": true,
       "license": "",
       "pricing": {
-        "prompt": 1e-7,
-        "completion": 3e-7
+        "prompt": 7.5e-8,
+        "completion": 2e-7
       },
       "office_grade": false,
       "hugging_face_id": "mistralai/Mistral-Small-3.2-24B-Instruct-2506",
@@ -1151,8 +1151,8 @@
       "multimodal": true,
       "license": "",
       "pricing": {
-        "prompt": 1.5e-7,
-        "completion": 6e-7
+        "prompt": 1.3e-7,
+        "completion": 5.2e-7
       },
       "office_grade": false,
       "hugging_face_id": "Qwen/Qwen3-VL-30B-A3B-Instruct",
