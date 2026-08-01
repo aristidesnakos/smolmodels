@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-07-31T12:31:16.698Z",
+    "scraped_at": "2026-08-01T11:06:59.807Z",
     "version": "1.0",
     "scraper_version": "0.1.0",
-    "total_models": 364,
+    "total_models": 336,
     "filtered_count": 54,
     "max_params_filter": 15
   },
@@ -1083,7 +1083,7 @@
       "license": "",
       "pricing": {
         "prompt": 7e-8,
-        "completion": 2.7e-7
+        "completion": 2.8e-7
       },
       "office_grade": false,
       "hugging_face_id": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
