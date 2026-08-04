@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-08-03T15:58:27.374Z",
+    "scraped_at": "2026-08-04T12:29:32.700Z",
     "version": "1.0",
     "scraper_version": "0.1.0",
-    "total_models": 337,
+    "total_models": 338,
     "filtered_count": 54,
     "max_params_filter": 15
   },
@@ -70,8 +70,8 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 6e-8,
-        "completion": 6e-8
+        "prompt": 8e-8,
+        "completion": 1.1e-7
       },
       "office_grade": false,
       "hugging_face_id": "Gryphe/MythoMax-L2-13b",
@@ -1083,7 +1083,7 @@
       "license": "",
       "pricing": {
         "prompt": 7e-8,
-        "completion": 2.8e-7
+        "completion": 2.7e-7
       },
       "office_grade": false,
       "hugging_face_id": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
@@ -1105,7 +1105,7 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 1e-7,
+        "prompt": 9e-8,
         "completion": 0.0000011
       },
       "office_grade": false,
@@ -1151,8 +1151,8 @@
       "multimodal": true,
       "license": "",
       "pricing": {
-        "prompt": 1.3e-7,
-        "completion": 5.2e-7
+        "prompt": 1.5e-7,
+        "completion": 6e-7
       },
       "office_grade": false,
       "hugging_face_id": "Qwen/Qwen3-VL-30B-A3B-Instruct",
