@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "scraped_at": "2026-08-04T12:29:32.700Z",
+    "scraped_at": "2026-08-05T12:26:30.443Z",
     "version": "1.0",
     "scraper_version": "0.1.0",
     "total_models": 338,
@@ -599,8 +599,8 @@
       "multimodal": true,
       "license": "",
       "pricing": {
-        "prompt": 7.5e-8,
-        "completion": 2e-7
+        "prompt": 9.375e-8,
+        "completion": 2.5e-7
       },
       "office_grade": false,
       "hugging_face_id": "mistralai/Mistral-Small-3.2-24B-Instruct-2506",
