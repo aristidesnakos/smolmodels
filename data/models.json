@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "scraped_at": "2026-08-09T08:09:17.150Z",
+    "scraped_at": "2026-08-10T10:39:36.599Z",
     "version": "1.0",
     "scraper_version": "0.1.0",
     "total_models": 400,
@@ -47,8 +47,8 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 2.275e-7,
-        "completion": 9.1e-7
+        "prompt": 1.2e-7,
+        "completion": 2.4e-7
       },
       "office_grade": false,
       "hugging_face_id": "Qwen/Qwen3-14B",
@@ -70,8 +70,8 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 8e-8,
-        "completion": 1.1e-7
+        "prompt": 6e-8,
+        "completion": 6e-8
       },
       "office_grade": false,
       "hugging_face_id": "Gryphe/MythoMax-L2-13b",
@@ -254,8 +254,8 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 3e-7,
-        "completion": 9e-7
+        "prompt": 8.5e-8,
+        "completion": 4e-7
       },
       "office_grade": false,
       "hugging_face_id": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8",
@@ -852,8 +852,8 @@
       "multimodal": true,
       "license": "",
       "pricing": {
-        "prompt": 7e-8,
-        "completion": 3.4e-7
+        "prompt": 1.2e-7,
+        "completion": 4e-7
       },
       "office_grade": false,
       "hugging_face_id": "google/gemma-4-26B-A4B-it",
