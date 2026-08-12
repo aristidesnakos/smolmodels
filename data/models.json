@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "scraped_at": "2026-08-11T09:33:49.257Z",
+    "scraped_at": "2026-08-12T09:46:05.854Z",
     "version": "1.0",
     "scraper_version": "0.1.0",
-    "total_models": 402,
-    "filtered_count": 54,
+    "total_models": 406,
+    "filtered_count": 55,
     "max_params_filter": 15
   },
   "models": [
@@ -1226,6 +1226,29 @@
       "office_grade": false,
       "hugging_face_id": "Qwen/Qwen3.6-35B-A3B",
       "description": "Qwen3.6-35B-A3B is an open-weight multimodal model from Alibaba Cloud with 35 billion total parameters and 3 billion active parameters per token. It uses a hybrid sparse mixture-of-experts architecture combining Gated..."
+    },
+    {
+      "id": "liquid/lfm-2.5-2.6b:free",
+      "name": "LiquidAI: LFM2.5-2.6B (free)",
+      "provider": "liquid",
+      "active_params_b": 2.6,
+      "total_params_b": 2.6,
+      "tier": "basic",
+      "tool_calling": true,
+      "tool_score": null,
+      "ifeval_score": null,
+      "context_length": 128000,
+      "quantized_ram_gb": 2.1,
+      "reasoning": false,
+      "multimodal": false,
+      "license": "",
+      "pricing": {
+        "prompt": 0,
+        "completion": 0
+      },
+      "office_grade": false,
+      "hugging_face_id": "LiquidAI/LFM2.5-2.6B",
+      "description": "LFM2.5-2.6B is a compact reasoning model from Liquid AI. It is suited for agent workflows, data extraction, RAG, and long-context processing. Liquid advises against using it for agentic coding or..."
     },
     {
       "id": "meta-llama/llama-3.2-1b-instruct",
