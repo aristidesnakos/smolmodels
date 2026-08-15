@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-08-14T09:40:32.881Z",
+    "scraped_at": "2026-08-15T07:18:19.755Z",
     "version": "1.0",
     "scraper_version": "0.1.0",
-    "total_models": 411,
+    "total_models": 413,
     "filtered_count": 55,
     "max_params_filter": 15
   },
@@ -1197,8 +1197,8 @@
       "multimodal": true,
       "license": "",
       "pricing": {
-        "prompt": 2.5e-7,
-        "completion": 0.00000125
+        "prompt": 2.25e-7,
+        "completion": 0.0000018
       },
       "office_grade": false,
       "hugging_face_id": "Qwen/Qwen3.5-35B-A3B",
