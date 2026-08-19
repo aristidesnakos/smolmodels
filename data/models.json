@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-08-18T07:57:41.062Z",
+    "scraped_at": "2026-08-19T07:57:25.583Z",
     "version": "1.0",
     "scraper_version": "0.1.0",
-    "total_models": 414,
+    "total_models": 415,
     "filtered_count": 55,
     "max_params_filter": 15
   },
@@ -392,8 +392,8 @@
       "multimodal": true,
       "license": "",
       "pricing": {
-        "prompt": 2.9e-7,
-        "completion": 0.0000024
+        "prompt": 2.6e-7,
+        "completion": 0.00000208
       },
       "office_grade": false,
       "hugging_face_id": "Qwen/Qwen3.5-122B-A10B",
@@ -1105,7 +1105,7 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 1e-7,
+        "prompt": 9e-8,
         "completion": 0.0000011
       },
       "office_grade": false,
