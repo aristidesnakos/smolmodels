@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "scraped_at": "2026-08-20T08:02:53.270Z",
+    "scraped_at": "2026-08-21T08:03:26.239Z",
     "version": "1.0",
     "scraper_version": "0.1.0",
-    "total_models": 414,
-    "filtered_count": 55,
+    "total_models": 419,
+    "filtered_count": 58,
     "max_params_filter": 15
   },
   "models": [
@@ -536,6 +536,29 @@
       "office_grade": false,
       "hugging_face_id": "mistralai/Ministral-3-8B-Instruct-2512",
       "description": "A balanced model in the Ministral 3 family, Ministral 3 8B is a powerful, efficient tiny language model with vision capabilities."
+    },
+    {
+      "id": "mistralai/ministral-8b",
+      "name": "Mistral: Ministral 8B",
+      "provider": "mistralai",
+      "active_params_b": 8,
+      "total_params_b": 8,
+      "tier": "strong",
+      "tool_calling": false,
+      "tool_score": null,
+      "ifeval_score": null,
+      "context_length": 128000,
+      "quantized_ram_gb": 5.3,
+      "reasoning": false,
+      "multimodal": false,
+      "license": "",
+      "pricing": {
+        "prompt": 1.1e-7,
+        "completion": 1.1e-7
+      },
+      "office_grade": false,
+      "hugging_face_id": null,
+      "description": "Ministral 8B is an 8B parameter model featuring a unique interleaved sliding-window attention pattern for faster, memory-efficient inference. Designed for edge use cases, it supports up to 128k context length..."
     },
     {
       "id": "mistralai/mistral-small-24b-instruct-2501",
@@ -1228,6 +1251,29 @@
       "description": "Qwen3.6-35B-A3B is an open-weight multimodal model from Alibaba Cloud with 35 billion total parameters and 3 billion active parameters per token. It uses a hybrid sparse mixture-of-experts architecture combining Gated..."
     },
     {
+      "id": "tencent/hy-mt2-30b-a3b",
+      "name": "Tencent: Hy-MT2-30B-A3B",
+      "provider": "tencent",
+      "active_params_b": 3,
+      "total_params_b": 3,
+      "tier": "basic",
+      "tool_calling": false,
+      "tool_score": null,
+      "ifeval_score": null,
+      "context_length": 8192,
+      "quantized_ram_gb": 2.3,
+      "reasoning": false,
+      "multimodal": false,
+      "license": "",
+      "pricing": {
+        "prompt": 7.4e-8,
+        "completion": 2.95e-7
+      },
+      "office_grade": false,
+      "hugging_face_id": "tencent/Hy-MT2-30B-A3B",
+      "description": "Hy-MT2-30B-A3B is Tencent's flagship translation model in the Hy-MT2 family. It supports 33 language pairs and five Chinese dialect and minority-language pairs, with workflows for structured, delimiter-based, contextual, glossary-based, and..."
+    },
+    {
       "id": "liquid/lfm-2.5-2.6b:free",
       "name": "LiquidAI: LFM2.5-2.6B (free)",
       "provider": "liquid",
@@ -1237,7 +1283,7 @@
       "tool_calling": true,
       "tool_score": null,
       "ifeval_score": null,
-      "context_length": 128000,
+      "context_length": 65536,
       "quantized_ram_gb": 2.1,
       "reasoning": false,
       "multimodal": false,
@@ -1249,6 +1295,29 @@
       "office_grade": false,
       "hugging_face_id": "LiquidAI/LFM2.5-2.6B",
       "description": "LFM2.5-2.6B is a compact reasoning model from Liquid AI. It is suited for agent workflows, data extraction, RAG, and long-context processing. Liquid advises against using it for agentic coding or..."
+    },
+    {
+      "id": "tencent/hy-mt2-1.8b",
+      "name": "Tencent: Hy-MT2-1.8B",
+      "provider": "tencent",
+      "active_params_b": 1.8,
+      "total_params_b": 1.8,
+      "tier": "basic",
+      "tool_calling": false,
+      "tool_score": null,
+      "ifeval_score": null,
+      "context_length": 8192,
+      "quantized_ram_gb": 1.6,
+      "reasoning": false,
+      "multimodal": false,
+      "license": "",
+      "pricing": {
+        "prompt": 4.4e-8,
+        "completion": 1.77e-7
+      },
+      "office_grade": false,
+      "hugging_face_id": "tencent/Hy-MT2-1.8B",
+      "description": "Hy-MT2-1.8B is a compact 1.8B-parameter translation model from Tencent. It supports 33 language pairs and five Chinese dialect and minority-language pairs, with workflows for structured, delimiter-based, contextual, glossary-based, and style-guided..."
     },
     {
       "id": "meta-llama/llama-3.2-1b-instruct",
