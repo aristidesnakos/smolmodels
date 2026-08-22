@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-08-21T08:03:26.239Z",
+    "scraped_at": "2026-08-22T07:45:02.513Z",
     "version": "1.0",
     "scraper_version": "0.1.0",
-    "total_models": 419,
+    "total_models": 421,
     "filtered_count": 58,
     "max_params_filter": 15
   },
@@ -616,14 +616,14 @@
       "tool_calling": true,
       "tool_score": null,
       "ifeval_score": null,
-      "context_length": 256000,
+      "context_length": 131072,
       "quantized_ram_gb": 5.3,
       "reasoning": false,
       "multimodal": true,
       "license": "",
       "pricing": {
-        "prompt": 9.375e-8,
-        "completion": 2.5e-7
+        "prompt": 7.5e-8,
+        "completion": 2e-7
       },
       "office_grade": false,
       "hugging_face_id": "mistralai/Mistral-Small-3.2-24B-Instruct-2506",
@@ -1128,7 +1128,7 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 9e-8,
+        "prompt": 1e-7,
         "completion": 0.0000011
       },
       "office_grade": false,
