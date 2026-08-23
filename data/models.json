@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "scraped_at": "2026-08-22T07:45:02.513Z",
+    "scraped_at": "2026-08-23T07:47:14.690Z",
     "version": "1.0",
     "scraper_version": "0.1.0",
-    "total_models": 421,
-    "filtered_count": 58,
+    "total_models": 422,
+    "filtered_count": 59,
     "max_params_filter": 15
   },
   "models": [
@@ -814,6 +814,29 @@
       "description": "Qwen2.5 7B is the latest series of Qwen large language models. Qwen2.5 brings the following improvements upon Qwen2: - Significantly more knowledge and has greatly improved capabilities in coding and..."
     },
     {
+      "id": "tencent/hy-mt2-7b",
+      "name": "Tencent: Hy-MT2-7B",
+      "provider": "tencent",
+      "active_params_b": 7,
+      "total_params_b": 7,
+      "tier": "capable",
+      "tool_calling": false,
+      "tool_score": null,
+      "ifeval_score": null,
+      "context_length": 8192,
+      "quantized_ram_gb": 4.7,
+      "reasoning": false,
+      "multimodal": false,
+      "license": "",
+      "pricing": {
+        "prompt": 7.4e-8,
+        "completion": 2.95e-7
+      },
+      "office_grade": false,
+      "hugging_face_id": "tencent/Hy-MT2-7B",
+      "description": "Hy-MT2-7B is a 7B-parameter translation model from Tencent. It supports 33 language pairs and five Chinese dialect and minority-language pairs, with workflows for structured, delimiter-based, contextual, glossary-based, and style-guided translation."
+    },
+    {
       "id": "google/gemma-3-4b-it",
       "name": "Google: Gemma 3 4B",
       "provider": "google",
@@ -1036,8 +1059,8 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 1.3e-7,
-        "completion": 5.2e-7
+        "prompt": 1.2e-7,
+        "completion": 5e-7
       },
       "office_grade": false,
       "hugging_face_id": "Qwen/Qwen3-30B-A3B",
