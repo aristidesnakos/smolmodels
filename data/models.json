@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "scraped_at": "2026-08-24T08:25:53.221Z",
+    "scraped_at": "2026-08-25T08:08:01.396Z",
     "version": "1.0",
     "scraper_version": "0.1.0",
-    "total_models": 422,
-    "filtered_count": 59,
+    "total_models": 419,
+    "filtered_count": 56,
     "max_params_filter": 15
   },
   "models": [
@@ -285,29 +285,6 @@
       "description": "NVIDIA Nemotron 3 Super is a 120B-parameter open hybrid MoE model, activating just 12B parameters for maximum compute efficiency and accuracy in complex multi-agent applications. Built on a hybrid Mamba-Transformer..."
     },
     {
-      "id": "nvidia/nemotron-nano-12b-v2-vl:free",
-      "name": "NVIDIA: Nemotron Nano 12B 2 VL (free)",
-      "provider": "nvidia",
-      "active_params_b": 12,
-      "total_params_b": 12,
-      "tier": "strong",
-      "tool_calling": true,
-      "tool_score": null,
-      "ifeval_score": null,
-      "context_length": 128000,
-      "quantized_ram_gb": 7.7,
-      "reasoning": false,
-      "multimodal": true,
-      "license": "",
-      "pricing": {
-        "prompt": 0,
-        "completion": 0
-      },
-      "office_grade": false,
-      "hugging_face_id": "nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL-BF16",
-      "description": "NVIDIA Nemotron Nano 2 VL is a 12-billion-parameter open multimodal reasoning model designed for video understanding and document intelligence. It introduces a hybrid Transformer-Mamba architecture, combining transformer-level accuracy with Mamba’s..."
-    },
-    {
       "id": "thedrummer/rocinante-12b",
       "name": "TheDrummer: Rocinante 12B",
       "provider": "thedrummer",
@@ -398,29 +375,6 @@
       "office_grade": false,
       "hugging_face_id": "Qwen/Qwen3.5-122B-A10B",
       "description": "The Qwen3.5 122B-A10B native vision-language model is built on a hybrid architecture that integrates a linear attention mechanism with a sparse mixture-of-experts model, achieving higher inference efficiency. In terms of..."
-    },
-    {
-      "id": "nvidia/nemotron-nano-9b-v2:free",
-      "name": "NVIDIA: Nemotron Nano 9B V2 (free)",
-      "provider": "nvidia",
-      "active_params_b": 9,
-      "total_params_b": 9,
-      "tier": "strong",
-      "tool_calling": true,
-      "tool_score": null,
-      "ifeval_score": null,
-      "context_length": 128000,
-      "quantized_ram_gb": 5.9,
-      "reasoning": false,
-      "multimodal": false,
-      "license": "",
-      "pricing": {
-        "prompt": 0,
-        "completion": 0
-      },
-      "office_grade": false,
-      "hugging_face_id": "nvidia/NVIDIA-Nemotron-Nano-9B-v2",
-      "description": "NVIDIA-Nemotron-Nano-9B-v2 is a large language model (LLM) trained from scratch by NVIDIA, and designed as a unified model for both reasoning and non-reasoning tasks. It responds to user queries and..."
     },
     {
       "id": "qwen/qwen3.5-9b",
@@ -992,29 +946,6 @@
       "pricing": {
         "prompt": 5e-8,
         "completion": 2e-7
-      },
-      "office_grade": false,
-      "hugging_face_id": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16",
-      "description": "NVIDIA Nemotron 3 Nano 30B A3B is a small language MoE model with highest compute efficiency and accuracy for developers to build specialized agentic AI systems. The model is fully..."
-    },
-    {
-      "id": "nvidia/nemotron-3-nano-30b-a3b:free",
-      "name": "NVIDIA: Nemotron 3 Nano 30B A3B (free)",
-      "provider": "nvidia",
-      "active_params_b": 3,
-      "total_params_b": 3,
-      "tier": "basic",
-      "tool_calling": true,
-      "tool_score": null,
-      "ifeval_score": null,
-      "context_length": 256000,
-      "quantized_ram_gb": 2.3,
-      "reasoning": false,
-      "multimodal": false,
-      "license": "",
-      "pricing": {
-        "prompt": 0,
-        "completion": 0
       },
       "office_grade": false,
       "hugging_face_id": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16",
