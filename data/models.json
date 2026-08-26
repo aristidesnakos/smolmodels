@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "scraped_at": "2026-08-25T08:08:01.396Z",
+    "scraped_at": "2026-08-26T08:08:43.335Z",
     "version": "1.0",
     "scraper_version": "0.1.0",
-    "total_models": 419,
-    "filtered_count": 56,
+    "total_models": 417,
+    "filtered_count": 55,
     "max_params_filter": 15
   },
   "models": [
@@ -156,7 +156,7 @@
       "tool_calling": false,
       "tool_score": null,
       "ifeval_score": null,
-      "context_length": 1048576,
+      "context_length": 163840,
       "quantized_ram_gb": 7.7,
       "reasoning": false,
       "multimodal": true,
@@ -812,29 +812,6 @@
       "office_grade": false,
       "hugging_face_id": "google/gemma-3-4b-it",
       "description": "Gemma 3 introduces multimodality, supporting vision-language input and text outputs. It handles context windows up to 128k tokens, understands over 140 languages, and offers improved math, reasoning, and chat capabilities,..."
-    },
-    {
-      "id": "google/gemma-3n-e4b-it",
-      "name": "Google: Gemma 3n 4B",
-      "provider": "google",
-      "active_params_b": 4,
-      "total_params_b": 4,
-      "tier": "capable",
-      "tool_calling": false,
-      "tool_score": null,
-      "ifeval_score": null,
-      "context_length": 32768,
-      "quantized_ram_gb": 2.9,
-      "reasoning": false,
-      "multimodal": false,
-      "license": "",
-      "pricing": {
-        "prompt": 6e-8,
-        "completion": 1.2e-7
-      },
-      "office_grade": false,
-      "hugging_face_id": "google/gemma-3n-E4B-it",
-      "description": "Gemma 3n E4B-it is optimized for efficient execution on mobile and low-resource devices, such as phones, laptops, and tablets. It supports multimodal inputs—including text, visual data, and audio—enabling diverse tasks..."
     },
     {
       "id": "google/gemma-4-26b-a4b-it",
