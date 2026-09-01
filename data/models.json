@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "scraped_at": "2026-08-31T06:04:44.244Z",
+    "scraped_at": "2026-09-01T06:09:40.297Z",
     "version": "1.0",
     "scraper_version": "0.1.0",
-    "total_models": 396,
-    "filtered_count": 58,
+    "total_models": 420,
+    "filtered_count": 56,
     "max_params_filter": 15
   },
   "models": [
@@ -70,8 +70,8 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 6e-8,
-        "completion": 6e-8
+        "prompt": 3.5e-7,
+        "completion": 6e-7
       },
       "office_grade": false,
       "hugging_face_id": "Gryphe/MythoMax-L2-13b",
@@ -195,29 +195,6 @@
     {
       "id": "mistralai/mistral-medium-3.1",
       "name": "Mistral: Mistral Medium 3.1",
-      "provider": "mistralai",
-      "active_params_b": 12,
-      "total_params_b": 36,
-      "tier": "strong",
-      "tool_calling": true,
-      "tool_score": null,
-      "ifeval_score": null,
-      "context_length": 131072,
-      "quantized_ram_gb": 7.7,
-      "reasoning": false,
-      "multimodal": true,
-      "license": "",
-      "pricing": {
-        "prompt": 4e-7,
-        "completion": 0.000002
-      },
-      "office_grade": false,
-      "hugging_face_id": "",
-      "description": "Mistral Medium 3.1 is an updated version of Mistral Medium 3, which is a high-performance enterprise-grade language model designed to deliver frontier-level capabilities at significantly reduced operational cost. It balances..."
-    },
-    {
-      "id": "mistralai/mistral-medium-3.1:batch",
-      "name": "Mistral: Mistral Medium 3.1 (batch)",
       "provider": "mistralai",
       "active_params_b": 12,
       "total_params_b": 36,
@@ -492,6 +469,29 @@
       "description": "Granite 4.1 8B is a dense, decoder-only 8-billion-parameter language model from IBM, part of the Granite 4.1 family. It supports a 131K-token context window and is designed for enterprise tasks..."
     },
     {
+      "id": "ibm-granite/granite-4.2-8b",
+      "name": "IBM: Granite 4.2 8B",
+      "provider": "ibm-granite",
+      "active_params_b": 8,
+      "total_params_b": 8,
+      "tier": "strong",
+      "tool_calling": true,
+      "tool_score": null,
+      "ifeval_score": null,
+      "context_length": 131072,
+      "quantized_ram_gb": 5.3,
+      "reasoning": false,
+      "multimodal": false,
+      "license": "",
+      "pricing": {
+        "prompt": 1e-7,
+        "completion": 1.5e-7
+      },
+      "office_grade": false,
+      "hugging_face_id": "ibm-granite/granite-4.2-8b",
+      "description": "Granite 4.2 8B is a dense reasoning model from IBM. It is suited for mathematics, code generation, multilingual dialogue, and agentic workflows that need multi-step reasoning. It supports full, low-effort,..."
+    },
+    {
       "id": "meta-llama/llama-3.1-8b-instruct",
       "name": "Meta: Llama 3.1 8B Instruct",
       "provider": "meta-llama",
@@ -517,29 +517,6 @@
     {
       "id": "mistralai/ministral-8b-2512",
       "name": "Mistral: Ministral 3 8B 2512",
-      "provider": "mistralai",
-      "active_params_b": 8,
-      "total_params_b": 8,
-      "tier": "strong",
-      "tool_calling": true,
-      "tool_score": null,
-      "ifeval_score": null,
-      "context_length": 262144,
-      "quantized_ram_gb": 5.3,
-      "reasoning": false,
-      "multimodal": true,
-      "license": "",
-      "pricing": {
-        "prompt": 1.5e-7,
-        "completion": 1.5e-7
-      },
-      "office_grade": false,
-      "hugging_face_id": "mistralai/Ministral-3-8B-Instruct-2512",
-      "description": "A balanced model in the Ministral 3 family, Ministral 3 8B is a powerful, efficient tiny language model with vision capabilities."
-    },
-    {
-      "id": "mistralai/ministral-8b-2512:batch",
-      "name": "Mistral: Ministral 3 8B 2512 (batch)",
       "provider": "mistralai",
       "active_params_b": 8,
       "total_params_b": 8,
@@ -632,29 +609,6 @@
     {
       "id": "mistralai/mistral-small-2603",
       "name": "Mistral: Mistral Small 4",
-      "provider": "mistralai",
-      "active_params_b": 8,
-      "total_params_b": 22,
-      "tier": "strong",
-      "tool_calling": true,
-      "tool_score": null,
-      "ifeval_score": null,
-      "context_length": 262144,
-      "quantized_ram_gb": 5.3,
-      "reasoning": false,
-      "multimodal": true,
-      "license": "",
-      "pricing": {
-        "prompt": 1.5e-7,
-        "completion": 6e-7
-      },
-      "office_grade": false,
-      "hugging_face_id": "mistralai/Mistral-Small-4-119B-2603",
-      "description": "Mistral Small 4 is the next major release in the Mistral Small family, unifying the capabilities of several flagship Mistral models into a single system. It combines strong reasoning from..."
-    },
-    {
-      "id": "mistralai/mistral-small-2603:batch",
-      "name": "Mistral: Mistral Small 4 (batch)",
       "provider": "mistralai",
       "active_params_b": 8,
       "total_params_b": 22,
@@ -1128,7 +1082,7 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 9e-8,
+        "prompt": 1e-7,
         "completion": 0.0000011
       },
       "office_grade": false,
