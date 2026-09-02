@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-09-01T06:09:40.297Z",
+    "scraped_at": "2026-09-02T06:10:22.041Z",
     "version": "1.0",
     "scraper_version": "0.1.0",
-    "total_models": 420,
+    "total_models": 421,
     "filtered_count": 56,
     "max_params_filter": 15
   },
@@ -70,8 +70,8 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 3.5e-7,
-        "completion": 6e-7
+        "prompt": 6e-8,
+        "completion": 6e-8
       },
       "office_grade": false,
       "hugging_face_id": "Gryphe/MythoMax-L2-13b",
