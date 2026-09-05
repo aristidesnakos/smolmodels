@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "scraped_at": "2026-09-04T06:09:02.169Z",
+    "scraped_at": "2026-09-05T06:08:33.771Z",
     "version": "1.0",
     "scraper_version": "0.1.0",
-    "total_models": 427,
-    "filtered_count": 56,
+    "total_models": 431,
+    "filtered_count": 55,
     "max_params_filter": 15
   },
   "models": [
@@ -444,29 +444,6 @@
       "office_grade": false,
       "hugging_face_id": "",
       "description": "Aion-RP-Llama-3.1-8B ranks the highest in the character evaluation portion of the RPBench-Auto benchmark, a roleplaying-specific variant of Arena-Hard-Auto, where LLMs evaluate each other’s responses. It is a fine-tuned base model..."
-    },
-    {
-      "id": "ibm-granite/granite-4.1-8b",
-      "name": "IBM: Granite 4.1 8B",
-      "provider": "ibm-granite",
-      "active_params_b": 8,
-      "total_params_b": 8,
-      "tier": "strong",
-      "tool_calling": true,
-      "tool_score": null,
-      "ifeval_score": null,
-      "context_length": 131072,
-      "quantized_ram_gb": 5.3,
-      "reasoning": false,
-      "multimodal": false,
-      "license": "",
-      "pricing": {
-        "prompt": 5e-8,
-        "completion": 1e-7
-      },
-      "office_grade": false,
-      "hugging_face_id": "ibm-granite/granite-4.1-8b",
-      "description": "Granite 4.1 8B is a dense, decoder-only 8-billion-parameter language model from IBM, part of the Granite 4.1 family. It supports a 131K-token context window and is designed for enterprise tasks..."
     },
     {
       "id": "ibm-granite/granite-4.2-8b",
@@ -1174,8 +1151,8 @@
       "multimodal": true,
       "license": "",
       "pricing": {
-        "prompt": 2.5e-7,
-        "completion": 0.00000125
+        "prompt": 8e-8,
+        "completion": 7.5e-7
       },
       "office_grade": false,
       "hugging_face_id": "Qwen/Qwen3.5-35B-A3B",
