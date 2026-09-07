@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-09-06T06:08:38.781Z",
+    "scraped_at": "2026-09-07T06:10:04.299Z",
     "version": "1.0",
     "scraper_version": "0.1.0",
-    "total_models": 431,
+    "total_models": 430,
     "filtered_count": 55,
     "max_params_filter": 15
   },
