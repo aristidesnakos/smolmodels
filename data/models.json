@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-09-07T06:10:04.299Z",
+    "scraped_at": "2026-09-08T06:09:17.521Z",
     "version": "1.0",
     "scraper_version": "0.1.0",
-    "total_models": 430,
+    "total_models": 428,
     "filtered_count": 55,
     "max_params_filter": 15
   },
@@ -47,8 +47,8 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 1.2e-7,
-        "completion": 2.4e-7
+        "prompt": 2.275e-7,
+        "completion": 9.1e-7
       },
       "office_grade": false,
       "hugging_face_id": "Qwen/Qwen3-14B",
@@ -248,7 +248,7 @@
       "tool_calling": true,
       "tool_score": null,
       "ifeval_score": null,
-      "context_length": 32768,
+      "context_length": 262144,
       "quantized_ram_gb": 7.7,
       "reasoning": false,
       "multimodal": true,
