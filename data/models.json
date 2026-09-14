@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "scraped_at": "2026-09-13T06:13:31.343Z",
+    "scraped_at": "2026-09-14T06:10:31.065Z",
     "version": "1.0",
     "scraper_version": "0.1.0",
     "total_models": 445,
@@ -47,8 +47,8 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 2.275e-7,
-        "completion": 9.1e-7
+        "prompt": 1.2e-7,
+        "completion": 2.4e-7
       },
       "office_grade": false,
       "hugging_face_id": "Qwen/Qwen3-14B",
