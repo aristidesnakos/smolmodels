@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "scraped_at": "2026-09-14T06:10:31.065Z",
+    "scraped_at": "2026-09-15T06:09:27.212Z",
     "version": "1.0",
     "scraper_version": "0.1.0",
     "total_models": 445,
@@ -300,8 +300,8 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 8.5e-8,
-        "completion": 4e-7
+        "prompt": 8e-8,
+        "completion": 4.5e-7
       },
       "office_grade": false,
       "hugging_face_id": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8",
@@ -1220,8 +1220,8 @@
       "multimodal": true,
       "license": "",
       "pricing": {
-        "prompt": 3.125e-7,
-        "completion": 0.00000125
+        "prompt": 1.625e-7,
+        "completion": 0.0000013
       },
       "office_grade": false,
       "hugging_face_id": "Qwen/Qwen3.5-35B-A3B",
