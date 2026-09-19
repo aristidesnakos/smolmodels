@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-09-18T06:09:17.725Z",
+    "scraped_at": "2026-09-19T06:09:04.093Z",
     "version": "1.0",
     "scraper_version": "0.1.0",
-    "total_models": 445,
+    "total_models": 447,
     "filtered_count": 58,
     "max_params_filter": 15
   },
@@ -1174,8 +1174,8 @@
       "multimodal": true,
       "license": "",
       "pricing": {
-        "prompt": 1.3e-7,
-        "completion": 5.2e-7
+        "prompt": 2e-7,
+        "completion": 7e-7
       },
       "office_grade": false,
       "hugging_face_id": "Qwen/Qwen3-VL-30B-A3B-Instruct",
