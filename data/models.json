@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-09-19T06:09:04.093Z",
+    "scraped_at": "2026-09-20T06:08:49.340Z",
     "version": "1.0",
     "scraper_version": "0.1.0",
-    "total_models": 447,
+    "total_models": 446,
     "filtered_count": 58,
     "max_params_filter": 15
   },
@@ -590,7 +590,7 @@
       "active_params_b": 8,
       "total_params_b": 22,
       "tier": "strong",
-      "tool_calling": false,
+      "tool_calling": true,
       "tool_score": null,
       "ifeval_score": null,
       "context_length": 128000,
@@ -1174,8 +1174,8 @@
       "multimodal": true,
       "license": "",
       "pricing": {
-        "prompt": 2e-7,
-        "completion": 7e-7
+        "prompt": 1.3e-7,
+        "completion": 5.2e-7
       },
       "office_grade": false,
       "hugging_face_id": "Qwen/Qwen3-VL-30B-A3B-Instruct",
@@ -1220,8 +1220,8 @@
       "multimodal": true,
       "license": "",
       "pricing": {
-        "prompt": 1.625e-7,
-        "completion": 0.0000013
+        "prompt": 3.125e-7,
+        "completion": 0.00000125
       },
       "office_grade": false,
       "hugging_face_id": "Qwen/Qwen3.5-35B-A3B",
