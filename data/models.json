@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "scraped_at": "2026-09-21T06:10:31.325Z",
+    "scraped_at": "2026-09-22T06:09:09.493Z",
     "version": "1.0",
     "scraper_version": "0.1.0",
-    "total_models": 446,
-    "filtered_count": 58,
+    "total_models": 445,
+    "filtered_count": 57,
     "max_params_filter": 15
   },
   "models": [
@@ -423,29 +423,6 @@
       "description": "Qwen3.5-9B is a multimodal foundation model from the Qwen3.5 family, designed to deliver strong reasoning, coding, and visual understanding in an efficient 9B-parameter architecture. It uses a unified vision-language design..."
     },
     {
-      "id": "qwen/qwen3.5-9b:batch",
-      "name": "Qwen: Qwen3.5-9B (batch)",
-      "provider": "qwen",
-      "active_params_b": 9,
-      "total_params_b": 9,
-      "tier": "strong",
-      "tool_calling": true,
-      "tool_score": null,
-      "ifeval_score": null,
-      "context_length": 262144,
-      "quantized_ram_gb": 5.9,
-      "reasoning": false,
-      "multimodal": true,
-      "license": "",
-      "pricing": {
-        "prompt": 1.7e-7,
-        "completion": 2.5e-7
-      },
-      "office_grade": false,
-      "hugging_face_id": "Qwen/Qwen3.5-9B",
-      "description": "Qwen3.5-9B is a multimodal foundation model from the Qwen3.5 family, designed to deliver strong reasoning, coding, and visual understanding in an efficient 9B-parameter architecture. It uses a unified vision-language design..."
-    },
-    {
       "id": "aion-labs/aion-rp-llama-3.1-8b",
       "name": "AionLabs: Aion-RP 1.0 (8B)",
       "provider": "aion-labs",
@@ -484,8 +461,8 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 1e-7,
-        "completion": 1.5e-7
+        "prompt": 6e-8,
+        "completion": 2.5e-7
       },
       "office_grade": false,
       "hugging_face_id": "ibm-granite/granite-4.2-8b",
@@ -990,8 +967,8 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 6e-8,
-        "completion": 2.4e-7
+        "prompt": 5e-8,
+        "completion": 2e-7
       },
       "office_grade": false,
       "hugging_face_id": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16",
