@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-09-23T06:09:14.664Z",
+    "scraped_at": "2026-09-24T06:09:36.050Z",
     "version": "1.0",
     "scraper_version": "0.1.0",
-    "total_models": 454,
+    "total_models": 458,
     "filtered_count": 57,
     "max_params_filter": 15
   },
@@ -1036,8 +1036,8 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 4.815e-8,
-        "completion": 1.9305e-7
+        "prompt": 1e-7,
+        "completion": 3e-7
       },
       "office_grade": false,
       "hugging_face_id": "Qwen/Qwen3-30B-A3B-Instruct-2507",
@@ -1105,7 +1105,7 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 9e-8,
+        "prompt": 1e-7,
         "completion": 0.0000011
       },
       "office_grade": false,
@@ -1237,7 +1237,7 @@
       "tool_calling": false,
       "tool_score": null,
       "ifeval_score": null,
-      "context_length": 8192,
+      "context_length": 32768,
       "quantized_ram_gb": 2.3,
       "reasoning": false,
       "multimodal": false,
