@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "scraped_at": "2026-10-09T06:11:31.311Z",
+    "scraped_at": "2026-10-10T06:09:17.904Z",
     "version": "1.0",
     "scraper_version": "0.1.0",
-    "total_models": 469,
-    "filtered_count": 57,
+    "total_models": 458,
+    "filtered_count": 54,
     "max_params_filter": 15
   },
   "models": [
@@ -41,14 +41,14 @@
       "tool_calling": true,
       "tool_score": null,
       "ifeval_score": null,
-      "context_length": 131072,
+      "context_length": 40960,
       "quantized_ram_gb": 8.9,
       "reasoning": false,
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 1.2e-7,
-        "completion": 2.4e-7
+        "prompt": 1e-7,
+        "completion": 2.2e-7
       },
       "office_grade": false,
       "hugging_face_id": "Qwen/Qwen3-14B",
@@ -653,29 +653,6 @@
       "description": "Mistral Small 4 is the next major release in the Mistral Small family, unifying the capabilities of several flagship Mistral models into a single system. It combines strong reasoning from..."
     },
     {
-      "id": "qwen/qwen3-8b",
-      "name": "Qwen: Qwen3 8B",
-      "provider": "qwen",
-      "active_params_b": 8,
-      "total_params_b": 8,
-      "tier": "strong",
-      "tool_calling": true,
-      "tool_score": null,
-      "ifeval_score": null,
-      "context_length": 131072,
-      "quantized_ram_gb": 5.3,
-      "reasoning": false,
-      "multimodal": false,
-      "license": "",
-      "pricing": {
-        "prompt": 1.17e-7,
-        "completion": 4.55e-7
-      },
-      "office_grade": false,
-      "hugging_face_id": "Qwen/Qwen3-8B",
-      "description": "Qwen3-8B is a dense 8.2B parameter causal language model from the Qwen3 series, designed for both reasoning-heavy tasks and efficient dialogue. It supports seamless switching between \"thinking\" mode for math,..."
-    },
-    {
       "id": "qwen/qwen3-vl-8b-instruct",
       "name": "Qwen: Qwen3 VL 8B Instruct",
       "provider": "qwen",
@@ -691,35 +668,12 @@
       "multimodal": true,
       "license": "",
       "pricing": {
-        "prompt": 1.17e-7,
-        "completion": 4.55e-7
+        "prompt": 2.5e-7,
+        "completion": 7.5e-7
       },
       "office_grade": false,
       "hugging_face_id": "Qwen/Qwen3-VL-8B-Instruct",
       "description": "Qwen3-VL-8B-Instruct is a multimodal vision-language model from the Qwen3-VL series, built for high-fidelity understanding and reasoning across text, images, and video. It features improved multimodal fusion with Interleaved-MRoPE for long-horizon..."
-    },
-    {
-      "id": "qwen/qwen3-vl-8b-thinking",
-      "name": "Qwen: Qwen3 VL 8B Thinking",
-      "provider": "qwen",
-      "active_params_b": 8,
-      "total_params_b": 8,
-      "tier": "strong",
-      "tool_calling": true,
-      "tool_score": null,
-      "ifeval_score": null,
-      "context_length": 131072,
-      "quantized_ram_gb": 5.3,
-      "reasoning": true,
-      "multimodal": true,
-      "license": "",
-      "pricing": {
-        "prompt": 1.8e-7,
-        "completion": 0.0000021
-      },
-      "office_grade": false,
-      "hugging_face_id": "Qwen/Qwen3-VL-8B-Thinking",
-      "description": "Qwen3-VL-8B-Thinking is the reasoning-optimized variant of the Qwen3-VL-8B multimodal model, designed for advanced visual and textual reasoning across complex scenes, documents, and temporal sequences. It integrates enhanced multimodal alignment and..."
     },
     {
       "id": "sao10k/l3-lunaris-8b",
@@ -875,8 +829,8 @@
       "multimodal": true,
       "license": "",
       "pricing": {
-        "prompt": 9e-8,
-        "completion": 3e-7
+        "prompt": 6.75e-8,
+        "completion": 2.25e-7
       },
       "office_grade": false,
       "hugging_face_id": "google/gemma-4-26B-A4B-it",
@@ -1007,7 +961,7 @@
       "tool_calling": true,
       "tool_score": null,
       "ifeval_score": null,
-      "context_length": 131072,
+      "context_length": 40960,
       "quantized_ram_gb": 2.3,
       "reasoning": false,
       "multimodal": false,
@@ -1042,29 +996,6 @@
       "office_grade": false,
       "hugging_face_id": "Qwen/Qwen3-30B-A3B-Instruct-2507",
       "description": "Qwen3-30B-A3B-Instruct-2507 is a 30.5B-parameter mixture-of-experts language model from Qwen, with 3.3B active parameters per inference. It operates in non-thinking mode and is designed for high-quality instruction following, multilingual understanding, and..."
-    },
-    {
-      "id": "qwen/qwen3-30b-a3b-thinking-2507",
-      "name": "Qwen: Qwen3 30B A3B Thinking 2507",
-      "provider": "qwen",
-      "active_params_b": 3,
-      "total_params_b": 3,
-      "tier": "basic",
-      "tool_calling": true,
-      "tool_score": null,
-      "ifeval_score": null,
-      "context_length": 81920,
-      "quantized_ram_gb": 2.3,
-      "reasoning": true,
-      "multimodal": false,
-      "license": "",
-      "pricing": {
-        "prompt": 2e-7,
-        "completion": 0.0000024
-      },
-      "office_grade": false,
-      "hugging_face_id": "Qwen/Qwen3-30B-A3B-Thinking-2507",
-      "description": "Qwen3-30B-A3B-Thinking-2507 is a 30B parameter Mixture-of-Experts reasoning model optimized for complex tasks requiring extended multi-step thinking. The model is designed specifically for “thinking mode,” where internal reasoning traces are separated..."
     },
     {
       "id": "qwen/qwen3-coder-30b-a3b-instruct",
@@ -1174,8 +1105,8 @@
       "multimodal": true,
       "license": "",
       "pricing": {
-        "prompt": 2e-7,
-        "completion": 0.0000024
+        "prompt": 2.9e-7,
+        "completion": 0.000001
       },
       "office_grade": false,
       "hugging_face_id": "Qwen/Qwen3-VL-30B-A3B-Thinking",
