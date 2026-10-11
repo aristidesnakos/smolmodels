@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "scraped_at": "2026-10-10T06:09:17.904Z",
+    "scraped_at": "2026-10-11T06:09:54.888Z",
     "version": "1.0",
     "scraper_version": "0.1.0",
     "total_models": 458,
@@ -47,8 +47,8 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 1e-7,
-        "completion": 2.2e-7
+        "prompt": 1.2e-7,
+        "completion": 2.4e-7
       },
       "office_grade": false,
       "hugging_face_id": "Qwen/Qwen3-14B",
@@ -1151,8 +1151,8 @@
       "multimodal": true,
       "license": "",
       "pricing": {
-        "prompt": 1.5e-7,
-        "completion": 0.000001
+        "prompt": 1e-7,
+        "completion": 9.5e-7
       },
       "office_grade": false,
       "hugging_face_id": "Qwen/Qwen3.6-35B-A3B",
