@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "scraped_at": "2026-10-14T06:22:00.894Z",
+    "scraped_at": "2026-10-15T06:22:57.124Z",
     "version": "1.0",
     "scraper_version": "0.1.0",
     "total_models": 462,
@@ -599,8 +599,8 @@
       "multimodal": true,
       "license": "",
       "pricing": {
-        "prompt": 9.375e-8,
-        "completion": 2.5e-7
+        "prompt": 7.5e-8,
+        "completion": 2e-7
       },
       "office_grade": false,
       "hugging_face_id": "mistralai/Mistral-Small-3.2-24B-Instruct-2506",
@@ -875,8 +875,8 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 5e-8,
-        "completion": 3.3e-7
+        "prompt": 5.09e-8,
+        "completion": 3.35e-7
       },
       "office_grade": false,
       "hugging_face_id": "meta-llama/Llama-3.2-3B-Instruct",
@@ -1151,8 +1151,8 @@
       "multimodal": true,
       "license": "",
       "pricing": {
-        "prompt": 1e-7,
-        "completion": 9.5e-7
+        "prompt": 1.5e-7,
+        "completion": 0.000001
       },
       "office_grade": false,
       "hugging_face_id": "Qwen/Qwen3.6-35B-A3B",
