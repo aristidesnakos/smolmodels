@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "scraped_at": "2026-10-24T06:20:12.390Z",
+    "scraped_at": "2026-10-25T06:21:00.066Z",
     "version": "1.0",
     "scraper_version": "0.1.0",
-    "total_models": 469,
-    "filtered_count": 57,
+    "total_models": 467,
+    "filtered_count": 58,
     "max_params_filter": 15
   },
   "models": [
@@ -898,8 +898,8 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 5.09e-8,
-        "completion": 3.35e-7
+        "prompt": 5e-8,
+        "completion": 3.3e-7
       },
       "office_grade": false,
       "hugging_face_id": "meta-llama/Llama-3.2-3B-Instruct",
@@ -1203,6 +1203,29 @@
       "office_grade": false,
       "hugging_face_id": "tencent/Hy-MT2-30B-A3B",
       "description": "Hy-MT2-30B-A3B is Tencent's flagship translation model in the Hy-MT2 family. It supports 33 language pairs and five Chinese dialect and minority-language pairs, with workflows for structured, delimiter-based, contextual, glossary-based, and..."
+    },
+    {
+      "id": "liquid/lfm-2.5-2.6b",
+      "name": "LiquidAI: LFM2.5-2.6B",
+      "provider": "liquid",
+      "active_params_b": 2.6,
+      "total_params_b": 2.6,
+      "tier": "basic",
+      "tool_calling": true,
+      "tool_score": null,
+      "ifeval_score": null,
+      "context_length": 128000,
+      "quantized_ram_gb": 2.1,
+      "reasoning": false,
+      "multimodal": false,
+      "license": "",
+      "pricing": {
+        "prompt": 3.5e-7,
+        "completion": 5e-7
+      },
+      "office_grade": false,
+      "hugging_face_id": "LiquidAI/LFM2.5-2.6B",
+      "description": "LFM2.5-2.6B is a compact reasoning model from Liquid AI. It is suited for agent workflows, data extraction, RAG, and long-context processing. Liquid advises against using it for agentic coding or..."
     },
     {
       "id": "liquid/lfm-2.5-2.6b:free",
