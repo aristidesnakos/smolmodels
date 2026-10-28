@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "scraped_at": "2026-10-27T06:27:15.271Z",
+    "scraped_at": "2026-10-28T06:30:51.306Z",
     "version": "1.0",
     "scraper_version": "0.1.0",
     "total_models": 464,
@@ -285,29 +285,6 @@
       "description": "NVIDIA Nemotron 3 Super is a 120B-parameter open hybrid MoE model, activating just 12B parameters for maximum compute efficiency and accuracy in complex multi-agent applications. Built on a hybrid Mamba-Transformer..."
     },
     {
-      "id": "nvidia/nemotron-3-super-120b-a12b:free",
-      "name": "NVIDIA: Nemotron 3 Super (free)",
-      "provider": "nvidia",
-      "active_params_b": 12,
-      "total_params_b": 12,
-      "tier": "strong",
-      "tool_calling": true,
-      "tool_score": null,
-      "ifeval_score": null,
-      "context_length": 262144,
-      "quantized_ram_gb": 7.7,
-      "reasoning": false,
-      "multimodal": false,
-      "license": "",
-      "pricing": {
-        "prompt": 0,
-        "completion": 0
-      },
-      "office_grade": false,
-      "hugging_face_id": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8",
-      "description": "NVIDIA Nemotron 3 Super is a 120B-parameter open hybrid MoE model, activating just 12B parameters for maximum compute efficiency and accuracy in complex multi-agent applications. Built on a hybrid Mamba-Transformer..."
-    },
-    {
       "id": "thedrummer/unslopnemo-12b",
       "name": "TheDrummer: UnslopNemo 12B",
       "provider": "thedrummer",
@@ -375,6 +352,29 @@
       "office_grade": false,
       "hugging_face_id": "Qwen/Qwen3.5-122B-A10B",
       "description": "The Qwen3.5 122B-A10B native vision-language model is built on a hybrid architecture that integrates a linear attention mechanism with a sparse mixture-of-experts model, achieving higher inference efficiency. In terms of..."
+    },
+    {
+      "id": "prism-ml/ternary-bonsai-2-9b",
+      "name": "PrismML: Ternary Bonsai 2 9B",
+      "provider": "prism-ml",
+      "active_params_b": 9,
+      "total_params_b": 9,
+      "tier": "strong",
+      "tool_calling": true,
+      "tool_score": null,
+      "ifeval_score": null,
+      "context_length": 262144,
+      "quantized_ram_gb": 5.9,
+      "reasoning": false,
+      "multimodal": true,
+      "license": "",
+      "pricing": {
+        "prompt": 8e-8,
+        "completion": 1.3e-7
+      },
+      "office_grade": false,
+      "hugging_face_id": "prism-ml/Ternary-Bonsai-2-9B-gguf",
+      "description": "Ternary Bonsai 2 9B is PrismML’s compact, open-weight language model for conversational AI, reasoning, and tool use. Built on Qwen3.5, it uses ternary weights packed into 2 bits for efficient..."
     },
     {
       "id": "qwen/qwen3.5-9b",
@@ -461,8 +461,8 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 5e-8,
-        "completion": 8e-8
+        "prompt": 2e-8,
+        "completion": 4e-8
       },
       "office_grade": false,
       "hugging_face_id": "meta-llama/Meta-Llama-3.1-8B-Instruct",
@@ -1106,7 +1106,7 @@
       "license": "",
       "pricing": {
         "prompt": 1e-7,
-        "completion": 9.5e-7
+        "completion": 9e-7
       },
       "office_grade": false,
       "hugging_face_id": "Qwen/Qwen3.6-35B-A3B",
