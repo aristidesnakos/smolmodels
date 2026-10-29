@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "scraped_at": "2026-10-28T06:30:51.306Z",
+    "scraped_at": "2026-10-29T06:33:45.967Z",
     "version": "1.0",
     "scraper_version": "0.1.0",
-    "total_models": 464,
-    "filtered_count": 55,
+    "total_models": 457,
+    "filtered_count": 54,
     "max_params_filter": 15
   },
   "models": [
@@ -271,7 +271,7 @@
       "tool_calling": true,
       "tool_score": null,
       "ifeval_score": null,
-      "context_length": 262144,
+      "context_length": 1048576,
       "quantized_ram_gb": 7.7,
       "reasoning": false,
       "multimodal": false,
@@ -439,7 +439,7 @@
       "license": "",
       "pricing": {
         "prompt": 6e-8,
-        "completion": 2.5e-7
+        "completion": 1.5e-7
       },
       "office_grade": false,
       "hugging_face_id": "ibm-granite/granite-4.2-8b",
@@ -461,8 +461,8 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 2e-8,
-        "completion": 4e-8
+        "prompt": 5e-8,
+        "completion": 8e-8
       },
       "office_grade": false,
       "hugging_face_id": "meta-llama/Meta-Llama-3.1-8B-Instruct",
@@ -996,29 +996,6 @@
       "office_grade": false,
       "hugging_face_id": "Qwen/Qwen3-Next-80B-A3B-Instruct",
       "description": "Qwen3-Next-80B-A3B-Instruct is an instruction-tuned chat model in the Qwen3-Next series optimized for fast, stable responses without “thinking” traces. It targets complex tasks across reasoning, code generation, knowledge QA, and multilingual..."
-    },
-    {
-      "id": "qwen/qwen3-next-80b-a3b-thinking",
-      "name": "Qwen: Qwen3 Next 80B A3B Thinking",
-      "provider": "qwen",
-      "active_params_b": 3,
-      "total_params_b": 3,
-      "tier": "basic",
-      "tool_calling": true,
-      "tool_score": null,
-      "ifeval_score": null,
-      "context_length": 262144,
-      "quantized_ram_gb": 2.3,
-      "reasoning": true,
-      "multimodal": false,
-      "license": "",
-      "pricing": {
-        "prompt": 1.5e-7,
-        "completion": 0.0000012
-      },
-      "office_grade": false,
-      "hugging_face_id": "Qwen/Qwen3-Next-80B-A3B-Thinking",
-      "description": "Qwen3-Next-80B-A3B-Thinking is a reasoning-first chat model in the Qwen3-Next line that outputs structured “thinking” traces by default. It’s designed for hard multi-step problems; math proofs, code synthesis/debugging, logic, and agentic..."
     },
     {
       "id": "qwen/qwen3-vl-30b-a3b-instruct",
