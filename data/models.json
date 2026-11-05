@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "scraped_at": "2026-11-04T06:53:38.175Z",
+    "scraped_at": "2026-11-05T06:55:20.981Z",
     "version": "1.0",
     "scraper_version": "0.1.0",
     "total_models": 455,
@@ -760,8 +760,8 @@
       "multimodal": true,
       "license": "",
       "pricing": {
-        "prompt": 8.9e-8,
-        "completion": 2.68e-7
+        "prompt": 2.6e-8,
+        "completion": 7.7e-8
       },
       "office_grade": false,
       "hugging_face_id": "google/gemma-4-26B-A4B-it",
