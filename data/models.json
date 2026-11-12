@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-11-11T06:53:36.328Z",
+    "scraped_at": "2026-11-12T06:55:47.017Z",
     "version": "1.0",
     "scraper_version": "0.1.0",
-    "total_models": 469,
+    "total_models": 468,
     "filtered_count": 54,
     "max_params_filter": 15
   },
@@ -235,7 +235,7 @@
         "completion": 0.0000075
       },
       "office_grade": false,
-      "hugging_face_id": null,
+      "hugging_face_id": "mistralai/Mistral-Medium-3.5-128B",
       "description": "Mistral Medium 3.5 is a dense 128B instruction-following model from Mistral AI. It supports text and image inputs with text output, and is designed for agentic workflows, coding, and complex..."
     },
     {
@@ -258,7 +258,7 @@
         "completion": 0.00000375
       },
       "office_grade": false,
-      "hugging_face_id": null,
+      "hugging_face_id": "mistralai/Mistral-Medium-3.5-128B",
       "description": "Mistral Medium 3.5 is a dense 128B instruction-following model from Mistral AI. It supports text and image inputs with text output, and is designed for agentic workflows, coding, and complex..."
     },
     {
@@ -271,7 +271,7 @@
       "tool_calling": true,
       "tool_score": null,
       "ifeval_score": null,
-      "context_length": 1048576,
+      "context_length": 262144,
       "quantized_ram_gb": 7.7,
       "reasoning": false,
       "multimodal": false,
@@ -392,8 +392,8 @@
       "multimodal": true,
       "license": "",
       "pricing": {
-        "prompt": 1.7e-7,
-        "completion": 2.5e-7
+        "prompt": 3.1e-8,
+        "completion": 4.6e-8
       },
       "office_grade": false,
       "hugging_face_id": "Qwen/Qwen3.5-9B",
@@ -419,7 +419,7 @@
         "completion": 0.0000016
       },
       "office_grade": false,
-      "hugging_face_id": "",
+      "hugging_face_id": "aion-labs/Aion-RP-Llama-3.1-8B",
       "description": "Aion-RP-Llama-3.1-8B ranks the highest in the character evaluation portion of the RPBench-Auto benchmark, a roleplaying-specific variant of Arena-Hard-Auto, where LLMs evaluate each other’s responses. It is a fine-tuned base model..."
     },
     {
@@ -439,7 +439,7 @@
       "license": "",
       "pricing": {
         "prompt": 6e-8,
-        "completion": 2.5e-7
+        "completion": 1.5e-7
       },
       "office_grade": false,
       "hugging_face_id": "ibm-granite/granite-4.2-8b",
@@ -672,7 +672,7 @@
         "completion": 1.5e-7
       },
       "office_grade": false,
-      "hugging_face_id": "",
+      "hugging_face_id": "CohereLabs/c4ai-command-r7b-12-2024",
       "description": "Command R7B (12-2024) is a small, fast update of the Command R+ model, delivered in December 2024. It excels at RAG, tool use, agents, and similar tasks requiring complex reasoning..."
     },
     {
