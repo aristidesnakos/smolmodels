@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "scraped_at": "2026-11-15T06:47:03.989Z",
+    "scraped_at": "2026-11-16T08:07:39.259Z",
     "version": "1.0",
     "scraper_version": "0.1.0",
-    "total_models": 470,
-    "filtered_count": 52,
+    "total_models": 468,
+    "filtered_count": 49,
     "max_params_filter": 15
   },
   "models": [
@@ -99,29 +99,6 @@
       "office_grade": false,
       "hugging_face_id": "Undi95/ReMM-SLERP-L2-13B",
       "description": "A recreation trial of the original MythoMax-L2-B13 but with updated models. #merge"
-    },
-    {
-      "id": "tencent/hunyuan-a13b-instruct",
-      "name": "Tencent: Hunyuan A13B Instruct",
-      "provider": "tencent",
-      "active_params_b": 13,
-      "total_params_b": 13,
-      "tier": "strong",
-      "tool_calling": false,
-      "tool_score": null,
-      "ifeval_score": null,
-      "context_length": 131072,
-      "quantized_ram_gb": 8.3,
-      "reasoning": false,
-      "multimodal": false,
-      "license": "",
-      "pricing": {
-        "prompt": 1.4e-7,
-        "completion": 5.7e-7
-      },
-      "office_grade": false,
-      "hugging_face_id": "tencent/Hunyuan-A13B-Instruct",
-      "description": "Hunyuan-A13B is a 13B active parameter Mixture-of-Experts (MoE) language model developed by Tencent, with a total parameter count of 80B and support for reasoning via Chain-of-Thought. It offers competitive benchmark..."
     },
     {
       "id": "google/gemma-3-12b-it",
@@ -308,29 +285,6 @@
       "description": "UnslopNemo v4.1 is the latest addition from the creator of Rocinante, designed for adventure writing and role-play scenarios."
     },
     {
-      "id": "stepfun/step-3.5-flash",
-      "name": "StepFun: Step 3.5 Flash",
-      "provider": "stepfun",
-      "active_params_b": 11,
-      "total_params_b": 196,
-      "tier": "strong",
-      "tool_calling": true,
-      "tool_score": null,
-      "ifeval_score": null,
-      "context_length": 262144,
-      "quantized_ram_gb": 7.1,
-      "reasoning": false,
-      "multimodal": false,
-      "license": "",
-      "pricing": {
-        "prompt": 1e-7,
-        "completion": 3e-7
-      },
-      "office_grade": false,
-      "hugging_face_id": "stepfun-ai/Step-3.5-Flash",
-      "description": "Step 3.5 Flash is StepFun's most capable open-source foundation model. Built on a sparse Mixture of Experts (MoE) architecture, it selectively activates only 11B of its 196B parameters per token...."
-    },
-    {
       "id": "qwen/qwen3.5-122b-a10b",
       "name": "Qwen: Qwen3.5-122B-A10B",
       "provider": "qwen",
@@ -392,8 +346,8 @@
       "multimodal": true,
       "license": "",
       "pricing": {
-        "prompt": 1.7e-7,
-        "completion": 2.5e-7
+        "prompt": 5.6e-8,
+        "completion": 8.2e-8
       },
       "office_grade": false,
       "hugging_face_id": "Qwen/Qwen3.5-9B",
@@ -439,7 +393,7 @@
       "license": "",
       "pricing": {
         "prompt": 6e-8,
-        "completion": 2.5e-7
+        "completion": 1.5e-7
       },
       "office_grade": false,
       "hugging_face_id": "ibm-granite/granite-4.2-8b",
@@ -737,8 +691,8 @@
       "multimodal": true,
       "license": "",
       "pricing": {
-        "prompt": 6.75e-8,
-        "completion": 2.25e-7
+        "prompt": 9e-8,
+        "completion": 3e-7
       },
       "office_grade": false,
       "hugging_face_id": "google/gemma-4-26B-A4B-it",
@@ -973,29 +927,6 @@
       "office_grade": false,
       "hugging_face_id": "Qwen/Qwen3-VL-30B-A3B-Instruct",
       "description": "Qwen3-VL-30B-A3B-Instruct is a multimodal model that unifies strong text generation with visual understanding for images and videos. Its Instruct variant optimizes instruction-following for general multimodal tasks. It excels in perception..."
-    },
-    {
-      "id": "qwen/qwen3-vl-30b-a3b-thinking",
-      "name": "Qwen: Qwen3 VL 30B A3B Thinking",
-      "provider": "qwen",
-      "active_params_b": 3,
-      "total_params_b": 3,
-      "tier": "basic",
-      "tool_calling": true,
-      "tool_score": null,
-      "ifeval_score": null,
-      "context_length": 262144,
-      "quantized_ram_gb": 2.3,
-      "reasoning": true,
-      "multimodal": true,
-      "license": "",
-      "pricing": {
-        "prompt": 2.9e-7,
-        "completion": 0.000001
-      },
-      "office_grade": false,
-      "hugging_face_id": "Qwen/Qwen3-VL-30B-A3B-Thinking",
-      "description": "Qwen3-VL-30B-A3B-Thinking is a multimodal model that unifies strong text generation with visual understanding for images and videos. Its Thinking variant enhances reasoning in STEM, math, and complex tasks. It excels..."
     },
     {
       "id": "qwen/qwen3.5-35b-a3b",
