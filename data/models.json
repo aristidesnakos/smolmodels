@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-11-20T06:56:28.084Z",
+    "scraped_at": "2026-11-21T06:52:50.429Z",
     "version": "1.0",
     "scraper_version": "0.1.0",
-    "total_models": 477,
+    "total_models": 476,
     "filtered_count": 48,
     "max_params_filter": 15
   },
@@ -691,8 +691,8 @@
       "multimodal": true,
       "license": "",
       "pricing": {
-        "prompt": 9e-8,
-        "completion": 3e-7
+        "prompt": 6.75e-8,
+        "completion": 2.25e-7
       },
       "office_grade": false,
       "hugging_face_id": "google/gemma-4-26B-A4B-it",
@@ -875,8 +875,8 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 1.5e-7,
-        "completion": 6e-7
+        "prompt": 7e-8,
+        "completion": 2.8e-7
       },
       "office_grade": false,
       "hugging_face_id": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
