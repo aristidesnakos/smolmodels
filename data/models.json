@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "scraped_at": "2026-11-21T06:52:50.429Z",
+    "scraped_at": "2026-11-22T06:51:45.298Z",
     "version": "1.0",
     "scraper_version": "0.1.0",
     "total_models": 476,
@@ -70,8 +70,8 @@
       "multimodal": false,
       "license": "",
       "pricing": {
-        "prompt": 8e-8,
-        "completion": 1.1e-7
+        "prompt": 3e-7,
+        "completion": 5e-7
       },
       "office_grade": false,
       "hugging_face_id": "Gryphe/MythoMax-L2-13b",
@@ -668,8 +668,8 @@
       "multimodal": true,
       "license": "",
       "pricing": {
-        "prompt": 5e-8,
-        "completion": 1e-7
+        "prompt": 4e-8,
+        "completion": 5e-8
       },
       "office_grade": false,
       "hugging_face_id": "google/gemma-3-4b-it",
