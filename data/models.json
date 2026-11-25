@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "scraped_at": "2026-11-24T06:56:28.266Z",
+    "scraped_at": "2026-11-25T06:58:57.733Z",
     "version": "1.0",
     "scraper_version": "0.1.0",
-    "total_models": 473,
-    "filtered_count": 48,
+    "total_models": 472,
+    "filtered_count": 46,
     "max_params_filter": 15
   },
   "models": [
@@ -145,52 +145,6 @@
       "office_grade": false,
       "hugging_face_id": "meta-llama/Llama-Guard-4-12B",
       "description": "Llama Guard 4 is a Llama 4 Scout-derived multimodal pretrained model, fine-tuned for content safety classification. Similar to previous versions, it can be used to classify content in both LLM..."
-    },
-    {
-      "id": "mistralai/mistral-medium-3",
-      "name": "Mistral: Mistral Medium 3",
-      "provider": "mistralai",
-      "active_params_b": 12,
-      "total_params_b": 36,
-      "tier": "strong",
-      "tool_calling": true,
-      "tool_score": null,
-      "ifeval_score": null,
-      "context_length": 131072,
-      "quantized_ram_gb": 7.7,
-      "reasoning": false,
-      "multimodal": true,
-      "license": "",
-      "pricing": {
-        "prompt": 4.4e-7,
-        "completion": 0.0000022
-      },
-      "office_grade": false,
-      "hugging_face_id": "",
-      "description": "Mistral Medium 3 is a high-performance enterprise-grade language model designed to deliver frontier-level capabilities at significantly reduced operational cost. It balances state-of-the-art reasoning and multimodal performance with 8× lower cost..."
-    },
-    {
-      "id": "mistralai/mistral-medium-3.1",
-      "name": "Mistral: Mistral Medium 3.1",
-      "provider": "mistralai",
-      "active_params_b": 12,
-      "total_params_b": 36,
-      "tier": "strong",
-      "tool_calling": true,
-      "tool_score": null,
-      "ifeval_score": null,
-      "context_length": 131072,
-      "quantized_ram_gb": 7.7,
-      "reasoning": false,
-      "multimodal": true,
-      "license": "",
-      "pricing": {
-        "prompt": 4.4e-7,
-        "completion": 0.0000022
-      },
-      "office_grade": false,
-      "hugging_face_id": "",
-      "description": "Mistral Medium 3.1 is an updated version of Mistral Medium 3, which is a high-performance enterprise-grade language model designed to deliver frontier-level capabilities at significantly reduced operational cost. It balances..."
     },
     {
       "id": "mistralai/mistral-medium-3-5",
@@ -967,8 +921,8 @@
       "multimodal": true,
       "license": "",
       "pricing": {
-        "prompt": 5e-8,
-        "completion": 7e-7
+        "prompt": 1e-7,
+        "completion": 8.9e-7
       },
       "office_grade": false,
       "hugging_face_id": "Qwen/Qwen3.6-35B-A3B",
