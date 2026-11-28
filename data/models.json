@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-11-27T06:59:25.107Z",
+    "scraped_at": "2026-11-28T06:54:21.007Z",
     "version": "1.0",
     "scraper_version": "0.1.0",
-    "total_models": 477,
+    "total_models": 476,
     "filtered_count": 48,
     "max_params_filter": 15
   },
@@ -300,8 +300,8 @@
       "multimodal": true,
       "license": "",
       "pricing": {
-        "prompt": 1e-7,
-        "completion": 2.5e-7
+        "prompt": 8.5e-8,
+        "completion": 1.25e-7
       },
       "office_grade": false,
       "hugging_face_id": "Qwen/Qwen3.5-9B",
@@ -668,8 +668,8 @@
       "multimodal": true,
       "license": "",
       "pricing": {
-        "prompt": 5e-8,
-        "completion": 1e-7
+        "prompt": 4e-8,
+        "completion": 5e-8
       },
       "office_grade": false,
       "hugging_face_id": "google/gemma-3-4b-it",
@@ -691,8 +691,8 @@
       "multimodal": true,
       "license": "",
       "pricing": {
-        "prompt": 9e-8,
-        "completion": 3e-7
+        "prompt": 6.75e-8,
+        "completion": 2.25e-7
       },
       "office_grade": false,
       "hugging_face_id": "google/gemma-4-26B-A4B-it",
